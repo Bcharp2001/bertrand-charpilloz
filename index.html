@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bertrand Charpilloz | L'Altesse Ego — Récital Piano & Voix (EPK Officiel)</title>
-    <meta name="description" content="Dossier de présentation officiel (EPK) de Bertrand Charpilloz, auteur-compositeur-interprète de chanson française. Écoute des titres Sunset Boulevard, Sur le creux de ma main, Le Fil Rouge et Mon Altesse Ego (versions Radio Edit et Piano-Voix avec Marie-Françoise Coelho).">
+    <meta name="description" content="Dossier de présentation officiel (EPK) de Bertrand Charpilloz, auteur-compositeur-interprète de chanson française. Répertoire original de 21 titres, écoute de Sunset Boulevard, Sur le creux de ma main, Le Fil Rouge et Mon Altesse Ego (Radio Edit et Piano-Voix avec Marie-Françoise Coelho).">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -77,7 +77,7 @@
         .btn {
             padding: 1rem 2rem; font-size: 0.8rem; letter-spacing: 2px;
             text-transform: uppercase; text-decoration: none; border-radius: 2px;
-            transition: all 0.3s; cursor: pointer;
+            transition: all 0.3s; cursor: pointer; font-family: 'Montserrat', sans-serif;
         }
         .btn-primary { background-color: var(--red-thread); color: var(--ivory); border: 1px solid var(--red-thread); }
         .btn-primary:hover { background-color: #a3151b; }
@@ -115,6 +115,25 @@
         }
         .player-box label span { color: var(--amber-gold); }
         audio { width: 100%; height: 38px; }
+        .repertoire-box {
+            margin-top: 3.5rem; background: var(--bg-card); border: 1px solid var(--border-subtle);
+            padding: 2.5rem; border-radius: 4px;
+        }
+        .repertoire-box h3 {
+            font-size: 2rem; font-weight: 400; color: var(--amber-gold);
+            margin-bottom: 0.5rem; text-align: center; letter-spacing: 2px; text-transform: uppercase;
+        }
+        .repertoire-box p {
+            text-align: center; color: var(--ivory-muted); font-size: 0.9rem; margin-bottom: 2rem;
+        }
+        .repertoire-list {
+            display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.8rem 2rem;
+            list-style: none; font-size: 0.9rem; color: var(--ivory);
+        }
+        .repertoire-list li span {
+            color: var(--amber-gold); font-family: 'Cormorant Garamond', serif;
+            font-size: 1.1rem; font-weight: 600; margin-right: 0.5rem;
+        }
         .bio-grid { display: grid; grid-template-columns: 1fr 1.3fr; gap: 4rem; align-items: center; }
         .bio-image img { width: 100%; border-radius: 4px; box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8); }
         .bio-content h3 { font-size: 2.4rem; margin-bottom: 1.5rem; font-weight: 400; }
@@ -124,8 +143,9 @@
         .pro-card h4 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; color: var(--amber-gold); margin-bottom: 1rem; }
         .pro-card p { font-size: 0.88rem; color: var(--ivory-muted); }
         footer { background-color: #050504; border-top: 1px solid var(--border-subtle); padding: 70px 8%; text-align: center; }
+        .contact-actions { display: flex; justify-content: center; gap: 1.2rem; flex-wrap: wrap; margin-bottom: 2.5rem; }
         @media (max-width: 900px) {
-            .hero, .bio-grid, .players-row, .pro-cards { grid-template-columns: 1fr; }
+            .hero, .bio-grid, .players-row, .pro-cards, .repertoire-list { grid-template-columns: 1fr; }
             .hero-title { font-size: 3rem; }
         }
     </style>
@@ -136,6 +156,7 @@
         <a href="#" class="nav-logo">Bertrand Charpilloz<span>’</span></a>
         <div class="nav-links">
             <a href="#ecoute">Écoute</a>
+            <a href="#repertoire">21 Titres</a>
             <a href="#auteur">L'Auteur</a>
             <a href="#scene">La Scène</a>
             <a href="#contact">Contact Pro</a>
@@ -153,11 +174,11 @@
             <p class="hero-pianist">Avec Marie-Françoise Coelho au piano</p>
             <p class="hero-pitch">
                 À la croisée de la chanson française à texte, du parlé-chanté intimiste au ras du micro et du blues-cabaret nocturne, 
-                <strong>Bertrand Charpilloz</strong> dévoile un répertoire original de 18 œuvres portées par une voix de baryton grave et un parcours de résilience hors norme.
+                <strong>Bertrand Charpilloz</strong> dévoile un répertoire original de <strong>21 œuvres</strong> portées par une voix de baryton grave et un parcours de résilience hors norme.
             </p>
             <div class="btn-group">
                 <a href="#ecoute" class="btn btn-primary">Écouter les 4 titres phares</a>
-                <a href="#contact" class="btn btn-outline">Demander le Livret des 18 Textes</a>
+                <a href="#contact" class="btn btn-outline">Demander le Livret des 21 Textes</a>
             </div>
         </div>
     </header>
@@ -263,6 +284,35 @@
                 </div>
             </div>
         </div>
+
+        <!-- CATALOGUE COMPLET DES 21 TITRES -->
+        <div id="repertoire" class="repertoire-box">
+            <h3>Répertoire Intégral — 21 Œuvres Originales</h3>
+            <p>Paroles et musiques : Bertrand Charpilloz (Livret intégral des textes et maquettes complètes sur demande professionnelle)</p>
+            <ul class="repertoire-list">
+                <li><span>01.</span> Sunset Boulevard</li>
+                <li><span>02.</span> Sur le creux de ma main</li>
+                <li><span>03.</span> Le Fil Rouge</li>
+                <li><span>04.</span> Mon Altesse Ego</li>
+                <li><span>05.</span> Le mal des mots</li>
+                <li><span>06.</span> Nadine</li>
+                <li><span>07.</span> Vanessa je vais je va va</li>
+                <li><span>08.</span> Bruxelles</li>
+                <li><span>09.</span> Comme si jamais</li>
+                <li><span>10.</span> Oh ma jolie Lisa</li>
+                <li><span>11.</span> Sally</li>
+                <li><span>12.</span> Ma belle Alsace</li>
+                <li><span>13.</span> Goodbye</li>
+                <li><span>14.</span> Personne dans ta vie</li>
+                <li><span>15.</span> Last Vegas</li>
+                <li><span>16.</span> Sur la terrasse du Sénéquier</li>
+                <li><span>17.</span> L'élégance</li>
+                <li><span>18.</span> Reviens</li>
+                <li><span>19.</span> Les moustiques</li>
+                <li><span>20.</span> Mrs Parker</li>
+                <li><span>21.</span> The French Ambassadeur</li>
+            </ul>
+        </div>
     </section>
 
     <div class="red-line-divider"></div>
@@ -283,61 +333,4 @@
                 <p>
                     Ingénieur-conseil en organisation et gestion d'entreprise, sa vie est traversée par des épreuves fondatrices : 
                     la disparition tragique de sa sœur aînée Dominique dans le crash du Mont Sainte-Odile le jour de ses 26 ans (20 janvier 1992), 
-                    puis un grave accident vasculaire cérébral hémorragique en 1997 qui le conduit à trois années de rééducation. 
-                    En 2013, il publie le récit autobiographique <em>« Mes liaisons cérébrales »</em>.
-                </p>
-                <p>
-                    À 60 ans, il livre un catalogue de <strong>18 chansons originales</strong> où l'élégance du verbe (calembours, portraits féminins, voyages) 
-                    rencontre une sincérité à l'état brut, dans la lignée de Serge Gainsbourg, Alain Bashung, Benjamin Biolay ou Alain Souchon.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <section id="scene">
-        <div class="section-header">
-            <h2>Opportunités de Partenariat</h2>
-            <p>Un projet structuré autour de trois axes de développement complémentaires sur l'espace francophone (France, Belgique, Suisse romande).</p>
-        </div>
-
-        <div class="pro-cards">
-            <div class="pro-card">
-                <h4>1. Édition Musicale & Synchro</h4>
-                <p>
-                    Catalogue cohérent de <strong>18 textes originaux</strong> déposés, à haute densité littéraire. 
-                    Fort potentiel de synchronisation audiovisuelle (cinéma, fictions, documentaires) et de réinterprétation.
-                </p>
-            </div>
-            <div class="pro-card">
-                <h4>2. Production Discographique</h4>
-                <p>
-                    Maquettes de pré-production finalisées (versions <em>Radio Edit</em> et <em>Piano-Voix</em>). 
-                    Prêt pour l'entrée en studio acoustique afin de graver le grain de baryton naturel et le jeu pianistique de Marie-Françoise Coelho.
-                </p>
-            </div>
-            <div class="pro-card">
-                <h4>3. Scène & Tournée (Plateau Léger)</h4>
-                <p>
-                    Le récital <strong>« L'Altesse Ego »</strong> en duo piano-voix offre une souplesse économique optimale 
-                    (coûts techniques et logistiques réduits) parfaitement calibrée pour les théâtres, scènes conventionnées et centres culturels de <strong>80 à 500 places</strong>.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <footer id="contact">
-        <h2 class="serif" style="font-size: 2.5rem; margin-bottom: 1rem;">Contact Professionnel & Booking</h2>
-        <p style="color: var(--ivory-muted); margin-bottom: 2rem;">
-            Pour recevoir le livret intégral des 18 textes (PDF), accéder à l'ensemble des maquettes ou échanger sur une collaboration (Édition, Label, Scène) :
-        </p>
-        <p style="font-size: 1.2rem; letter-spacing: 2px; color: var(--amber-gold); margin-bottom: 3rem;">
-            <strong>BERTRAND CHARPILLOZ</strong><br>
-            France · Suisse · Belgique
-        </p>
-        <p style="font-size: 0.75rem; color: var(--ivory-muted); opacity: 0.6;">
-            © 2026 Bertrand Charpilloz — Tous droits réservés (Paroles et Musiques : Bertrand Charpilloz).
-        </p>
-    </footer>
-
-</body>
-</html>
+                    puis un grave accident
