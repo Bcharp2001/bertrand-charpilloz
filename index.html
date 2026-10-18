@@ -4,175 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bertrand Charpilloz | L'Altesse Ego — Récital Piano & Voix (EPK Officiel)</title>
-    <meta name="description" content="Dossier de présentation officiel (EPK) de Bertrand Charpilloz, auteur-compositeur-interprète de chanson française. Répertoire original de 21 titres, écoute de Sunset Boulevard, Sur le creux de ma main, Le Fil Rouge et Mon Altesse Ego (Radio Edit et Piano-Voix avec Marie-Françoise Coelho).">
+    <meta name="description" content="Dossier de présentation officiel (EPK) de Bertrand Charpilloz, auteur-compositeur-interprète de chanson française. Répertoire original de 21 titres, écoute de Sunset Boulevard, Sur le creux de ma main, Le Fil Rouge et Mon Altesse Ego.">
+    <script>
+        // Force l'ajout du "/" final si l'utilisateur ouvre l'URL sans "/" (évite l'écran blanc de code brut)
+        if (window.location.pathname.endsWith('/bertrand-charpilloz')) {
+            window.location.replace(window.location.pathname + '/' + window.location.search + window.location.hash);
+        }
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
-        :root {
-            --bg-black: #0a0908;
-            --bg-card: #141210;
-            --ivory: #f4EFE6;
-            --ivory-muted: #b8b2a6;
-            --red-thread: #c81d25;
-            --amber-gold: #d49a56;
-            --border-subtle: rgba(244, 239, 230, 0.12);
-        }
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        html { scroll-behavior: smooth; }
-        body {
-            background-color: var(--bg-black);
-            color: var(--ivory);
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 300;
-            line-height: 1.7;
-            overflow-x: hidden;
-        }
-        h1, h2, h3, .serif { font-family: 'Cormorant Garamond', serif; }
-        nav {
-            position: fixed; top: 0; width: 100%;
-            background: rgba(10, 9, 8, 0.92); backdrop-filter: blur(8px);
-            border-bottom: 1px solid var(--border-subtle);
-            padding: 1rem 5%; display: flex; justify-content: space-between; align-items: center; z-index: 1000;
-        }
-        .nav-logo {
-            font-family: 'Cormorant Garamond', serif; font-size: 1.3rem;
-            letter-spacing: 3px; text-transform: uppercase; color: var(--ivory); text-decoration: none;
-        }
-        .nav-logo span { color: var(--red-thread); font-weight: bold; }
-        .nav-links a {
-            color: var(--ivory-muted); text-decoration: none; font-size: 0.8rem;
-            letter-spacing: 2px; text-transform: uppercase; margin-left: 2rem; transition: color 0.3s;
-        }
-        .nav-links a:hover { color: var(--ivory); }
-        .hero {
-            min-height: 100vh; padding: 120px 8% 80px;
-            display: grid; grid-template-columns: 1fr 1.1fr; gap: 4rem;
-            align-items: center; max-width: 1400px; margin: 0 auto;
-        }
-        .hero-poster img {
-            width: 100%; max-width: 520px; border-radius: 4px;
-            box-shadow: 0 25px 60px rgba(0, 0, 0, 0.85), 0 0 1px rgba(244, 239, 230, 0.2);
-            display: block; margin: 0 auto;
-        }
-        .hero-tag {
-            font-size: 0.8rem; letter-spacing: 4px; text-transform: uppercase;
-            color: var(--amber-gold); margin-bottom: 1rem; display: block;
-        }
-        .hero-title {
-            font-size: 4.5rem; font-weight: 600; line-height: 1.05;
-            letter-spacing: 2px; text-transform: uppercase; margin-bottom: 1rem;
-        }
-        .hero-title .red-apostrophe { color: var(--red-thread); }
-        .hero-subtitle {
-            font-family: 'Cormorant Garamond', serif; font-style: italic;
-            font-size: 1.8rem; color: var(--ivory-muted); margin-bottom: 0.5rem;
-        }
-        .hero-pianist {
-            font-size: 0.85rem; letter-spacing: 3px; text-transform: uppercase;
-            color: var(--ivory); margin-bottom: 2rem; padding-bottom: 2rem;
-            border-bottom: 1px solid var(--border-subtle);
-        }
-        .hero-pitch { font-size: 1rem; color: var(--ivory-muted); margin-bottom: 2.5rem; }
-        .btn-group { display: flex; gap: 1rem; flex-wrap: wrap; }
-        .btn {
-            padding: 1rem 2rem; font-size: 0.8rem; letter-spacing: 2px;
-            text-transform: uppercase; text-decoration: none; border-radius: 2px;
-            transition: all 0.3s; cursor: pointer; font-family: 'Montserrat', sans-serif;
-            display: inline-block;
-        }
-        .btn-primary { background-color: var(--red-thread); color: var(--ivory); border: 1px solid var(--red-thread); }
-        .btn-primary:hover { background-color: #a3151b; }
-        .btn-outline { background-color: transparent; color: var(--ivory); border: 1px solid var(--ivory-muted); }
-        .btn-outline:hover { border-color: var(--ivory); background-color: rgba(244, 239, 230, 0.05); }
-        .red-line-divider {
-            width: 100%; height: 1px;
-            background: linear-gradient(90deg, transparent, var(--red-thread), transparent);
-            margin: 2rem 0;
-        }
-        section { padding: 90px 8%; max-width: 1300px; margin: 0 auto; }
-        .section-header { text-align: center; margin-bottom: 4rem; }
-        .section-header h2 {
-            font-size: 3rem; font-weight: 400; text-transform: uppercase;
-            letter-spacing: 3px; margin-bottom: 1rem;
-        }
-        .section-header p { max-width: 750px; margin: 0 auto; color: var(--ivory-muted); font-size: 0.95rem; }
-        .audio-grid { display: grid; grid-template-columns: 1fr; gap: 2rem; }
-        .track-card {
-            background-color: var(--bg-card); border: 1px solid var(--border-subtle);
-            border-left: 3px solid var(--red-thread); padding: 2.2rem; border-radius: 4px;
-        }
-        .track-header { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; margin-bottom: 0.5rem; }
-        .track-title { font-size: 2rem; color: var(--ivory); }
-        .track-meta { font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; color: var(--amber-gold); }
-        .track-quote { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 1.3rem; color: var(--ivory-muted); margin-bottom: 1rem; }
-        .track-desc { font-size: 0.9rem; color: var(--ivory-muted); margin-bottom: 1.5rem; }
-        .players-row {
-            display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;
-            background: rgba(0, 0, 0, 0.35); padding: 1.2rem; border-radius: 4px;
-        }
-        .player-box label {
-            display: block; font-size: 0.75rem; letter-spacing: 1.5px;
-            text-transform: uppercase; margin-bottom: 0.5rem; color: var(--ivory);
-        }
-        .player-box label span { color: var(--amber-gold); }
-        audio { width: 100%; height: 38px; }
-        .repertoire-box {
-            margin-top: 3.5rem; background: var(--bg-card); border: 1px solid var(--border-subtle);
-            padding: 2.5rem; border-radius: 4px;
-        }
-        .repertoire-box h3 {
-            font-size: 2rem; font-weight: 400; color: var(--amber-gold);
-            margin-bottom: 0.5rem; text-align: center; letter-spacing: 2px; text-transform: uppercase;
-        }
-        .repertoire-box p {
-            text-align: center; color: var(--ivory-muted); font-size: 0.9rem; margin-bottom: 2rem;
-        }
-        .repertoire-list {
-            display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.8rem 2rem;
-            list-style: none; font-size: 0.9rem; color: var(--ivory);
-        }
-        .repertoire-list li span {
-            color: var(--amber-gold); font-family: 'Cormorant Garamond', serif;
-            font-size: 1.1rem; font-weight: 600; margin-right: 0.5rem;
-        }
-        .bio-grid { display: grid; grid-template-columns: 1fr 1.3fr; gap: 4rem; align-items: center; }
-        .bio-image img { width: 100%; border-radius: 4px; box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8); }
-        .bio-content h3 { font-size: 2.4rem; margin-bottom: 1.5rem; font-weight: 400; }
-        .bio-content p { margin-bottom: 1.2rem; color: var(--ivory-muted); font-size: 0.95rem; }
-        .pro-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin-top: 3rem; }
-        .pro-card { background: var(--bg-card); border: 1px solid var(--border-subtle); padding: 2rem; border-radius: 4px; }
-        .pro-card h4 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; color: var(--amber-gold); margin-bottom: 1rem; }
-        .pro-card p { font-size: 0.88rem; color: var(--ivory-muted); }
-        footer { background-color: #050504; border-top: 1px solid var(--border-subtle); padding: 70px 8%; text-align: center; }
-        .contact-actions { display: flex; justify-content: center; gap: 1.2rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
-        .contact-reveal-box {
-            display: none; max-width: 520px; margin: 0 auto 2.5rem; padding: 1.5rem;
-            background: var(--bg-card); border: 1px solid var(--amber-gold); border-radius: 4px;
-        }
-        .contact-reveal-box p { font-size: 1.05rem; color: var(--ivory); margin-bottom: 0.8rem; word-break: break-all; }
-        .copy-badge {
-            background: rgba(212, 154, 86, 0.15); color: var(--amber-gold); border: 1px solid var(--amber-gold);
-            padding: 0.4rem 1rem; font-size: 0.75rem; letter-spacing: 1.5px; text-transform: uppercase;
-            cursor: pointer; border-radius: 2px; margin: 0 0.4rem;
-        }
-        .copy-badge:hover { background: var(--amber-gold); color: var(--bg-black); }
-        @media (max-width: 900px) {
-            .hero, .bio-grid, .players-row, .pro-cards, .repertoire-list { grid-template-columns: 1fr; }
-            .hero-title { font-size: 3rem; }
+        :root { --bg-black:#0a0908; --bg-card:#141210; --ivory:#f4EFE6; --ivory-muted:#b8b2a6; --red-thread:#c81d25; --amber-gold:#d49a56; --border-subtle:rgba(244,239,230,0.12); }
+        * { margin:0; padding:0; box-sizing:border-box; }
+        html { scroll-behavior:smooth; }
+        body { background-color:var(--bg-black); color:var(--ivory); font-family:'Montserrat',sans-serif; font-weight:300; line-height:1.7; overflow-x:hidden; }
+        h1, h2, h3, .serif { font-family:'Cormorant Garamond',serif; }
+        nav { position:fixed; top:0; width:100%; background:rgba(10,9,8,0.94); backdrop-filter:blur(8px); border-bottom:1px solid var(--border-subtle); padding:1rem 5%; display:flex; justify-content:space-between; align-items:center; z-index:1000; }
+        .nav-logo { font-family:'Cormorant Garamond',serif; font-size:1.3rem; letter-spacing:3px; text-transform:uppercase; color:var(--ivory); background:none; border:none; cursor:pointer; }
+        .nav-logo span { color:var(--red-thread); font-weight:bold; }
+        .nav-links button { background:none; border:none; color:var(--ivory-muted); font-family:'Montserrat',sans-serif; font-size:0.8rem; letter-spacing:2px; text-transform:uppercase; margin-left:2rem; cursor:pointer; transition:color 0.3s; }
+        .nav-links button:hover { color:var(--ivory); }
+        .hero { min-height:100vh; padding:120px 8% 80px; display:grid; grid-template-columns:1fr 1.1fr; gap:4rem; align-items:center; max-width:1400px; margin:0 auto; }
+        .hero-poster img { width:100%; max-width:520px; border-radius:4px; box-shadow:0 25px 60px rgba(0,0,0,0.85), 0 0 1px rgba(244,239,230,0.2); display:block; margin:0 auto; }
+        .hero-tag { font-size:0.8rem; letter-spacing:4px; text-transform:uppercase; color:var(--amber-gold); margin-bottom:1rem; display:block; }
+        .hero-title { font-size:4.5rem; font-weight:600; line-height:1.05; letter-spacing:2px; text-transform:uppercase; margin-bottom:1rem; }
+        .hero-title .red-apostrophe { color:var(--red-thread); }
+        .hero-subtitle { font-family:'Cormorant Garamond',serif; font-style:italic; font-size:1.8rem; color:var(--ivory-muted); margin-bottom:0.5rem; }
+        .hero-pianist { font-size:0.85rem; letter-spacing:3px; text-transform:uppercase; color:var(--ivory); margin-bottom:2rem; padding-bottom:2rem; border-bottom:1px solid var(--border-subtle); }
+        .hero-pitch { font-size:1rem; color:var(--ivory-muted); margin-bottom:2.5rem; }
+        .btn-group { display:flex; gap:1rem; flex-wrap:wrap; }
+        .btn { padding:1rem 2rem; font-size:0.8rem; letter-spacing:2px; text-transform:uppercase; text-decoration:none; border-radius:2px; transition:all 0.3s; cursor:pointer; font-family:'Montserrat',sans-serif; display:inline-block; }
+        .btn-primary { background-color:var(--red-thread); color:var(--ivory); border:1px solid var(--red-thread); }
+        .btn-primary:hover { background-color:#a3151b; }
+        .btn-outline { background-color:transparent; color:var(--ivory); border:1px solid var(--ivory-muted); }
+        .btn-outline:hover { border-color:var(--ivory); background-color:rgba(244,239,230,0.05); }
+        .red-line-divider { width:100%; height:1px; background:linear-gradient(90deg,transparent,var(--red-thread),transparent); margin:2rem 0; }
+        section { padding:90px 8%; max-width:1300px; margin:0 auto; }
+        .section-header { text-align:center; margin-bottom:4rem; }
+        .section-header h2 { font-size:3rem; font-weight:400; text-transform:uppercase; letter-spacing:3px; margin-bottom:1rem; }
+        .section-header p { max-width:750px; margin:0 auto; color:var(--ivory-muted); font-size:0.95rem; }
+        .audio-grid { display:grid; grid-template-columns:1fr; gap:2rem; }
+        .track-card { background-color:var(--bg-card); border:1px solid var(--border-subtle); border-left:3px solid var(--red-thread); padding:2.2rem; border-radius:4px; }
+        .track-header { display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; margin-bottom:0.5rem; }
+        .track-title { font-size:2rem; color:var(--ivory); }
+        .track-meta { font-size:0.8rem; letter-spacing:2px; text-transform:uppercase; color:var(--amber-gold); }
+        .track-quote { font-family:'Cormorant Garamond',serif; font-style:italic; font-size:1.3rem; color:var(--ivory-muted); margin-bottom:1rem; }
+        .track-desc { font-size:0.9rem; color:var(--ivory-muted); margin-bottom:1.5rem; }
+        .players-row { display:grid; grid-template-columns:1fr 1fr; gap:1.5rem; background:rgba(0,0,0,0.35); padding:1.2rem; border-radius:4px; }
+        .player-box label { display:block; font-size:0.75rem; letter-spacing:1.5px; text-transform:uppercase; margin-bottom:0.5rem; color:var(--ivory); }
+        .player-box label span { color:var(--amber-gold); }
+        audio { width:100%; height:38px; }
+        .repertoire-box { margin-top:3.5rem; background:var(--bg-card); border:1px solid var(--border-subtle); padding:2.5rem; border-radius:4px; }
+        .repertoire-box h3 { font-size:2rem; font-weight:400; color:var(--amber-gold); margin-bottom:0.5rem; text-align:center; letter-spacing:2px; text-transform:uppercase; }
+        .repertoire-box p { text-align:center; color:var(--ivory-muted); font-size:0.9rem; margin-bottom:2rem; }
+        .repertoire-list { display:grid; grid-template-columns:repeat(3,1fr); gap:0.8rem 2rem; list-style:none; font-size:0.9rem; color:var(--ivory); }
+        .repertoire-list li span { color:var(--amber-gold); font-family:'Cormorant Garamond',serif; font-size:1.1rem; font-weight:600; margin-right:0.5rem; }
+        .bio-grid { display:grid; grid-template-columns:1fr 1.3fr; gap:4rem; align-items:center; }
+        .bio-image img { width:100%; border-radius:4px; box-shadow:0 20px 50px rgba(0,0,0,0.8); }
+        .bio-content h3 { font-size:2.4rem; margin-bottom:1.5rem; font-weight:400; }
+        .bio-content p { margin-bottom:1.2rem; color:var(--ivory-muted); font-size:0.95rem; }
+        .pro-cards { display:grid; grid-template-columns:repeat(3,1fr); gap:2rem; margin-top:3rem; }
+        .pro-card { background:var(--bg-card); border:1px solid var(--border-subtle); padding:2rem; border-radius:4px; }
+        .pro-card h4 { font-family:'Cormorant Garamond',serif; font-size:1.6rem; color:var(--amber-gold); margin-bottom:1rem; }
+        .pro-card p { font-size:0.88rem; color:var(--ivory-muted); }
+        footer { background-color:#050504; border-top:1px solid var(--border-subtle); padding:70px 8%; text-align:center; }
+        .contact-actions { display:flex; justify-content:center; gap:1.2rem; flex-wrap:wrap; margin-bottom:1.5rem; }
+        .contact-reveal-box { display:none; max-width:520px; margin:0 auto 2.5rem; padding:1.5rem; background:var(--bg-card); border:1px solid var(--amber-gold); border-radius:4px; }
+        .contact-reveal-box p { font-size:1.05rem; color:var(--ivory); margin-bottom:0.8rem; word-break:break-all; }
+        .copy-badge { background:rgba(212,154,86,0.15); color:var(--amber-gold); border:1px solid var(--amber-gold); padding:0.5rem 1.1rem; font-size:0.75rem; letter-spacing:1.5px; text-transform:uppercase; cursor:pointer; border-radius:2px; margin:0.3rem; display:inline-block; font-family:'Montserrat',sans-serif; }
+        .copy-badge:hover { background:var(--amber-gold); color:var(--bg-black); }
+        @media (max-width:900px) {
+            .hero, .bio-grid, .players-row, .pro-cards, .repertoire-list { grid-template-columns:1fr; }
+            .hero-title { font-size:3rem; }
+            .nav-links button { margin-left:0.8rem; font-size:0.7rem; }
         }
     </style>
 </head>
-<body>
+<body id="top">
 
     <nav>
-        <a href="#" class="nav-logo">Bertrand Charpilloz<span>’</span></a>
+        <button type="button" class="nav-logo" onclick="goToSection('top')">Bertrand Charpilloz<span>’</span></button>
         <div class="nav-links">
-            <a href="#ecoute">Écoute</a>
-            <a href="#repertoire">21 Titres</a>
-            <a href="#auteur">L'Auteur</a>
-            <a href="#scene">La Scène</a>
-            <a href="#contact">Contact Pro</a>
+            <button type="button" onclick="goToSection('ecoute')">Écoute</button>
+            <button type="button" onclick="goToSection('repertoire')">21 Titres</button>
+            <button type="button" onclick="goToSection('auteur')">L'Auteur</button>
+            <button type="button" onclick="goToSection('scene')">La Scène</button>
+            <button type="button" onclick="goToSection('contact')">Contact Pro</button>
         </div>
     </nav>
 
@@ -190,8 +108,8 @@
                 <strong>Bertrand Charpilloz</strong> dévoile un répertoire original de <strong>21 œuvres</strong> portées par une voix de baryton grave et un parcours de résilience hors norme.
             </p>
             <div class="btn-group">
-                <a href="#ecoute" class="btn btn-primary">Écouter les 4 titres phares</a>
-                <a href="#contact" class="btn btn-outline">Demander le Livret des 21 Textes</a>
+                <button type="button" class="btn btn-primary" onclick="goToSection('ecoute')">Écouter les 4 titres phares</button>
+                <button type="button" class="btn btn-outline" onclick="goToSection('contact'); revealContact('mail');">Demander le Livret des 21 Textes</button>
             </div>
         </div>
     </header>
@@ -209,16 +127,13 @@
         </div>
 
         <div class="audio-grid">
-            <!-- TITRE 1 -->
             <div class="track-card">
                 <div class="track-header">
                     <h3 class="track-title">01. Sunset Boulevard</h3>
                     <span class="track-meta">100 BPM · Mi mineur · Le Single Solaire</span>
                 </div>
                 <p class="track-quote">« J’aime le soleil qui brille, c’est mon étendard… »</p>
-                <p class="track-desc">
-                    Du parlé-chanté intimiste en Mi mineur vers un refrain majeur lumineux et fédérateur. Une philosophie de vie qui oppose le lâcher-prise, l'amour et la poésie à la force des éléments.
-                </p>
+                <p class="track-desc">Du parlé-chanté intimiste en Mi mineur vers un refrain majeur lumineux et fédérateur. Une philosophie de vie qui oppose le lâcher-prise, l'amour et la poésie à la force des éléments.</p>
                 <div class="players-row">
                     <div class="player-box">
                         <label>🎧 Version <span>Radio Edit</span> (Potentiel Single & Synchro)</label>
@@ -231,16 +146,13 @@
                 </div>
             </div>
 
-            <!-- TITRE 2 -->
             <div class="track-card">
                 <div class="track-header">
                     <h3 class="track-title">02. Sur le creux de ma main</h3>
                     <span class="track-meta">76 BPM · Ballade Poétique & Intemporelle</span>
                 </div>
                 <p class="track-quote">« Dis à la vigne, dis au vent, que j’ai essayé d’être vivant… »</p>
-                <p class="track-desc">
-                    Une œuvre contemplative sur le passage des saisons, les carnets de chansons et la plénitude d'un homme de 60 ans. C'est de ce texte qu'est tirée la devise du spectacle : <em>« J'ai vécu d'accords mineurs et d'aurores »</em>.
-                </p>
+                <p class="track-desc">Une œuvre contemplative sur le passage des saisons, les carnets de chansons et la plénitude d'un homme de 60 ans. C'est de ce texte qu'est tirée la devise du spectacle : <em>« J'ai vécu d'accords mineurs et d'aurores »</em>.</p>
                 <div class="players-row">
                     <div class="player-box">
                         <label>🎧 Version <span>Radio Edit / Orchestrale</span> (Album & Cinéma)</label>
@@ -253,39 +165,9 @@
                 </div>
             </div>
 
-            <!-- TITRE 3 -->
             <div class="track-card">
                 <div class="track-header">
                     <h3 class="track-title">03. Le Fil Rouge</h3>
                     <span class="track-meta">78 BPM · Mi mineur · Récit Autobiographique</span>
                 </div>
-                <p class="track-quote">« Mars deux mille vingt-quatre… Une vie à me battre pour voir ma fille grandir. »</p>
-                <p class="track-desc">
-                    Colonne vertébrale émotionnelle du répertoire : d'avril 1997 (l'AVC hémorragique où la vie ne tient plus qu'à un fil) jusqu'à la reconquête patiente de la marche, de la parole et du bonheur paternel.
-                </p>
-                <div class="players-row">
-                    <div class="player-box">
-                        <label>🎧 Version <span>Radio Edit</span> (Montée Cinématographique)</label>
-                        <audio controls preload="none" src="bertrand-charpilloz-le-fil-rouge-radio-edit.mp3"></audio>
-                    </div>
-                    <div class="player-box">
-                        <label>🎹 Version <span>Piano-Voix</span> (Confidence au ras du micro)</label>
-                        <audio controls preload="none" src="bertrand-charpilloz-le-fil-rouge-piano-voix.mp3"></audio>
-                    </div>
-                </div>
-            </div>
-
-            <!-- TITRE 4 -->
-            <div class="track-card">
-                <div class="track-header">
-                    <h3 class="track-title">04. Mon Altesse Ego</h3>
-                    <span class="track-meta">115 BPM · Swing Cabaret-Blues</span>
-                </div>
-                <p class="track-quote">« Toi, ma petite idée secrète, de t’avoir sous ma couette, un bout de vie… ce serait chouette. »</p>
-                <p class="track-desc">
-                    Chanson éponyme du récital écrite en hommage à la pianiste Marie-Françoise Coelho. Un inventaire poétique, espiègle et sensuel qui fait swinger la langue française avec un flegme pince-sans-rire.
-                </p>
-                <div class="players-row">
-                    <div class="player-box">
-                        <label>🎧 Version <span>Radio Edit</span> (Groove Chanson-Blues)</label>
-                        <audio controls preload="
+                <p class="track-quote">« Mars deux mille vingt-quatre… Une vie à me battre pour voir ma fille grandir.
