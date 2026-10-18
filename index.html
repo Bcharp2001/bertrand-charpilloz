@@ -323,6 +323,55 @@
                 setTimeout(() => { btn.innerText = orig; }, 2500);
             });
         }
+        <footer id="contact">
+    <h2 class="serif" style="font-size:2.5rem;margin-bottom:1rem">Contact Professionnel & Booking</h2>
+    <p style="color:var(--muted);margin:0 auto 2rem;max-width:720px">Pour recevoir le livret intégral des 21 textes (PDF), accéder à l'ensemble des maquettes ou échanger sur une collaboration (Édition, Label, Scène) :</p>
+    <div class="contact-actions">
+        <button type="button" class="btn btn-primary" onclick="showC('mail')">✉️ Afficher / Masquer l'E-mail Pro</button>
+        <button type="button" class="btn btn-outline" onclick="showC('tel')">📞 Afficher / Masquer la Ligne Directe</button>
+    </div>
+    <div id="cbox" class="reveal-box" style="position:relative;"></div>
+    <p style="font-size:1.2rem;letter-spacing:2px;color:var(--gold);margin-bottom:3rem"><strong>BERTRAND CHARPILLOZ</strong><br>France · Suisse · Belgique</p>
+    <p style="font-size:0.75rem;color:var(--muted);opacity:0.6">© 2026 Bertrand Charpilloz — Tous droits réservés (Paroles et Musiques : Bertrand Charpilloz).</p>
+</footer>
+
+<script>
+function go(id){var e=document.getElementById(id);if(e)e.scrollIntoView({behavior:'smooth'});}
+var auds=document.querySelectorAll('audio');
+auds.forEach(function(a){a.addEventListener('play',function(){auds.forEach(function(o){if(o!==a)o.pause();});});});
+
+var currentC = '';
+function closeC(){
+    var b=document.getElementById('cbox');
+    b.style.display='none';
+    b.innerHTML='';
+    currentC='';
+}
+
+function showC(t){
+    var b=document.getElementById('cbox');
+    if(b.style.display==='block' && currentC===t){
+        closeC();
+        return;
+    }
+    currentC=t;
+    b.style.display='block';
+    var closeBtn = '<button type="button" onclick="closeC()" style="position:absolute;top:10px;right:14px;background:none;border:none;color:var(--muted);font-size:0.85rem;cursor:pointer;letter-spacing:1px;">✕ MASQUER</button>';
+    
+    if(t==='mail'){
+        var m=atob('YmVydHJhbmQuY2hhcnBpbGxvekBnbWFpbC5jb20=');
+        var s=encodeURIComponent("Contact Pro — L'Altesse Ego (Bertrand Charpilloz)");
+        var gmailUrl='https://mail.google.com/mail/?view=cm&fs=1&to='+m+'&su='+s;
+        b.innerHTML=closeBtn+'<p style="margin:0.5rem 0 0.8rem">✉️ Contact Direction Artistique & Booking :<br><strong style="color:var(--gold);font-size:1.15rem">'+m+'</strong></p><button type="button" class="badge" onclick="cp(\''+m+'\',this)">📋 Copier l\'adresse e-mail</button><a href="'+gmailUrl+'" target="_blank" rel="noopener" class="badge">✉️ Écrire via Gmail (Web)</a><a href="mailto:'+m+'?subject='+s+'" class="badge">✉️ Application Mail / Mobile</a>';
+    }else{
+        var td=atob('MDYgODEgMDQgNDIgNDc='),tl=atob('KzMzNjgxMDQ0MjQ3');
+        b.innerHTML=closeBtn+'<p style="margin:0.5rem 0 0.8rem">📞 Ligne Directe Professionnelle :<br><strong style="color:var(--gold);font-size:1.15rem">'+td+'</strong></p><button type="button" class="badge" onclick="cp(\''+td+'\',this)">📋 Copier le numéro</button><a href="tel:'+tl+'" class="badge">📞 Appeler (Mobile / FaceTime)</a>';
+    }
+}
+function cp(txt,btn){navigator.clipboard.writeText(txt).then(function(){var o=btn.innerText;btn.innerText='✓ Copié !';setTimeout(function(){btn.innerText=o;},2000);});}
+</script>
+</body>
+</html>
     </script>
 </body>
 </html>
