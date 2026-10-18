@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bertrand Charpilloz | L'Altesse Ego — Récital Piano & Voix (EPK Officiel)</title>
+<meta name="description" content="Dossier de présentation officiel (EPK) de Bertrand Charpilloz, auteur-compositeur-interprète de chanson française. Répertoire original de 21 titres, écoute de Sunset Boulevard, Sur le creux de ma main, Le Fil Rouge et Mon Altesse Ego (Radio Edit et Piano-Voix avec Marie-Françoise Coelho).">
+<script>
+if (window.location.pathname.endsWith('/bertrand-charpilloz')) {
+    window.location.replace(window.location.pathname + '/' + window.location.search + window.location.hash);
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0a0908;--card:#141210;--ivory:#f4EFE6;--muted:#b8b2a6;--red:#c81d25;--gold:#d49a56;--border:rgba(244,239,230,0.12)}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ivory);font-family:'Montserrat',sans-serif;font-weight:300;line-height:1.7;overflow-x:hidden}
+h1,h2,h3,.serif{font-family:'Cormorant Garamond',serif}
+nav{position:fixed;top:0;width:100%;background:rgba(10,9,8,0.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);padding:1rem 5%;display:flex;justify-content:space-between;align-items:center;z-index:1000}
+.nav-logo{font-family:'Cormorant Garamond',serif;font-size:1.3rem;letter-spacing:3px;text-transform:uppercase;color:var(--ivory);background:none;border:none;cursor:pointer}
+.nav-logo span{color:var(--red);font-weight:bold}
+.nav-links button{background:none;border:none;color:var(--muted);font-family:'Montserrat',sans-serif;font-size:0.8rem;letter-spacing:2px;text-transform:uppercase;margin-left:1.8rem;cursor:pointer;transition:color 0.3s}
+.nav-links button:hover{color:var(--ivory)}
+.hero{min-height:100vh;padding:120px 8% 80px;display:grid;grid-template-columns:1fr 1.1fr;gap:4rem;align-items:center;max-width:1400px;margin:0 auto}
+.hero-poster img{width:100%;max-width:520px;border-radius:4px;box-shadow:0 25px 60px rgba(0,0,0,0.85),0 0 1px rgba(244,239,230,0.2);display:block;margin:0 auto}
+.hero-tag{font-size:0.8rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:1rem;display:block}
+.hero-title{font-size:4.2rem;font-weight:600;line-height:1.05;letter-spacing:2px;text-transform:uppercase;margin-bottom:1rem}
+.hero-title span{color:var(--red)}
+.hero-subtitle{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:1.8rem;color:var(--muted);margin-bottom:0.5rem}
+.hero-pianist{font-size:0.85rem;letter-spacing:3px;text-transform:uppercase;color:var(--ivory);margin-bottom:2rem;padding-bottom:2rem;border-bottom:1px solid var(--border)}
+.hero-pitch{font-size:1rem;color:var(--muted);margin-bottom:2.5rem}
+.btn-group{display:flex;gap:1rem;flex-wrap:wrap}
+.btn{padding:1rem 1.8rem;font-size:0.8rem;letter-spacing:2px;text-transform:uppercase;border-radius:2px;cursor:pointer;font-family:'Montserrat',sans-serif;transition:all 0.3s;display:inline-block;text-decoration:none}
+.btn-primary{background:var(--red);color:var(--ivory);border:1px solid var(--red)}
+.btn-primary:hover{background:#a3151b}
+.btn-outline{background:transparent;color:var(--ivory);border:1px solid var(--muted)}
+.btn-outline:hover{border-color:var(--ivory);background:rgba(244,239,230,0.05)}
+.divider{width:100%;height:1px;background:linear-gradient(90deg,transparent,var(--red),transparent);margin:2rem 0}
+section{padding:80px 8%;max-width:1300px;margin:0 auto}
+.section-header{text-align:center;margin-bottom:3.5rem}
+.section-header h2{font-size:2.8rem;font-weight:400;text-transform:uppercase;letter-spacing:3px;margin-bottom:1rem}
+.section-header p{max-width:750px;margin:0 auto;color:var(--muted);font-size:0.95rem}
+.audio-grid{display:grid;grid-template-columns:1fr;gap:2rem}
+.track-card{background:var(--card);border:1px solid var(--border);border-left:3px solid var(--red);padding:2.2rem;border-radius:4px}
+.track-header{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;margin-bottom:0.5rem}
+.track-title{font-size:1.9rem;color:var(--ivory)}
+.track-meta{font-size:0.8rem;letter-spacing:2px;text-transform:uppercase;color:var(--gold)}
+.track-quote{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:1.3rem;color:var(--muted);margin-bottom:1rem}
+.track-desc{font-size:0.9rem;color:var(--muted);margin-bottom:1.4rem}
+.players-row{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;background:rgba(0,0,0,0.35);padding:1.2rem;border-radius:4px}
+.player-box label{display:block;font-size:0.75rem;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:0.5rem;color:var(--ivory)}
+.player-box label span{color:var(--gold)}
+audio{width:100%;height:38px}
+.rep-box{margin-top:3.5rem;background:var(--card);border:1px solid var(--border);padding:2.5rem;border-radius:4px}
+.rep-box h3{font-size:2rem;font-weight:400;color:var(--gold);margin-bottom:0.5rem;text-align:center;letter-spacing:2px;text-transform:uppercase}
+.rep-box p{text-align:center;color:var(--muted);font-size:0.9rem;margin-bottom:2rem}
+.rep-list{display:grid;grid-template-columns:repeat(3,1fr);gap:0.8rem 2rem;list-style:none;font-size:0.9rem}
+.rep-list li span{color:var(--gold);font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-weight:600;margin-right:0.5rem}
+.bio-grid{display:grid;grid-template-columns:1fr 1.3fr;gap:4rem;align-items:center}
+.bio-image img{width:100%;border-radius:4px;box-shadow:0 20px 50px rgba(0,0,0,0.8)}
+.bio-content h3{font-size:2.4rem;margin-bottom:1.5rem;font-weight:400}
+.bio-content p{margin-bottom:1.2rem;color:var(--muted);font-size:0.95rem}
+.pro-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;margin-top:3rem}
+.pro-card{background:var(--card);border:1px solid var(--border);padding:2rem;border-radius:4px}
+.pro-card h4{font-family:'Cormorant Garamond',serif;font-size:1.6rem;color:var(--gold);margin-bottom:1rem}
+.pro-card p{font-size:0.88rem;color:var(--muted)}
+footer{background:#050504;border-top:1px solid var(--border);padding:70px 8%;text-align:center}
+.contact-actions{display:flex;justify-content:center;gap:1.2rem;flex-wrap:wrap;margin-bottom:1.5rem}
+.reveal-box{display:none;position:relative;max-width:560px;margin:0 auto 2.5rem;padding:2rem 1.5rem 1.5rem;background:var(--card);border:1px solid var(--gold);border-radius:4px}
+.close-box{position:absolute;top:10px;right:14px;background:none;border:none;color:var(--muted);font-size:0.75rem;letter-spacing:1.5px;text-transform:uppercase;cursor:pointer;font-family:'Montserrat',sans-serif}
+.close-box:hover{color:var(--ivory)}
+.badge{background:rgba(212,154,86,0.15);color:var(--gold);border:1px solid var(--gold);padding:0.55rem 1.1rem;font-size:0.75rem;letter-spacing:1.5px;text-transform:uppercase;cursor:pointer;border-radius:2px;margin:0.35rem;display:inline-block;text-decoration:none;font-family:'Montserrat',sans-serif;transition:all 0.2s}
+.badge:hover{background:var(--gold);color:var(--bg)}
+@media(max-width:900px){.hero,.bio-grid,.players-row,.pro-cards,.rep-list{grid-template-columns:1fr}.hero-title{font-size:2.8rem}.nav-links button{margin-left:0.8rem;font-size:0.7rem}}
+</style>
+</head>
+<body id="top">
+
+<nav>
+    <button type="button" class="nav-logo" onclick="go('top')">Bertrand Charpilloz<span>’</span></button>
+    <div class="nav-links">
+        <button type="button" onclick="go('ecoute')">Écoute</button>
+        <button type="button" onclick="go('repertoire')">21 Titres</button>
+        <button type="button" onclick="go('auteur')">L'Auteur</button>
+        <button type="button" onclick="go('scene')">La Scène</button>
+        <button type="button" onclick="go('contact')">Contact Pro</button>
+    </div>
+</nav>
+
+<header class="hero">
+    <div class="hero-poster">
+        <img src="bertrand-charpilloz-l-altesse-ego-recital-piano-voix.png" alt="Affiche du récital piano-voix L'Altesse Ego de Bertrand Charpilloz avec Marie-Françoise Coelho au piano">
+    </div>
+    <div>
+        <span class="hero-tag">Dossier de Présentation Officiel (EPK)</span>
+        <h1 class="hero-title">L<span>’</span>Altesse Ego</h1>
+        <p class="hero-subtitle">D’accords mineurs et d’aurores — Récital Piano & Voix</p>
+        <p class="hero-pianist">Avec Marie-Françoise Coelho au piano</p>
+        <p class="hero-pitch">
+            À la croisée de la chanson française à texte, du parlé-chanté intimiste au ras du micro et du blues-cabaret nocturne, 
+            <strong>Bertrand Charpilloz</strong> dévoile un répertoire original de <strong>21 œuvres</strong> portées par une voix de baryton grave et un parcours de résilience hors norme.
+        </p>
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary" onclick="go('ecoute')">Écouter les 4 titres phares</button>
+            <button type="button" class="btn btn-outline" onclick="go('contact');showC('mail',true)">Demander le Livret des 21 Textes</button>
+        </div>
+    </div>
+</header>
+
+<div class="divider"></div>
+
+<section id="ecoute">
+    <div class="section-header">
+        <h2>Sélection Direction Artistique</h2>
+        <p>Afin de permettre aux <strong>Éditeurs, Labels et Tourneurs</strong> d'évaluer chaque facette du projet, ces 4 titres phares sont présentés en <strong>Double Lecture</strong> : une maquette de réalisation <em>Radio Edit</em> (potentiel single, radio & synchro cinéma) et une version <em>Piano-Voix</em> fidèle à la nudité acoustique du spectacle.</p>
+    </div>
+
+    <div class="audio-grid">
+        <div class="track-card">
+            <div class="track-header">
+                <h3 class="track-title">01. Sunset Boulevard</h3>
+                <span class="track-meta">100 BPM · Mi mineur · Le Single Solaire</span>
+            </div>
+            <p class="track-quote">« J’aime le soleil qui brille, c’est mon étendard… »</p>
+            <p class="track-desc">Du parlé-chanté intimiste en Mi mineur vers un refrain majeur lumineux et fédérateur. Une philosophie de vie qui oppose le lâcher-prise, l'amour et la poésie à la force des éléments.</p>
+            <div class="players-row">
+                <div class="player-box">
+                    <label>🎧 Version <span>Radio Edit</span> (Potentiel Single & Synchro)</label>
+                    <audio controls preload="none" src="bertrand-charpilloz-sunset-boulevard-radio-edit.mp3"></audio>
+                </div>
+                <div class="player-box">
+                    <label>🎹 Version <span>Piano-Voix</span> (Récital L'Altesse Ego)</label>
+                    <audio controls preload="none" src="bertrand-charpilloz-sunset-boulevard-piano-voix.mp3"></audio>
+                </div>
+            </div>
+        </div>
+
+        <div class="track-card">
+            <div class="track-header">
+                <h3 class="track-title">02. Sur le creux de ma main</h3>
+                <span class="track-meta">76 BPM · Ballade Poétique & Intemporelle</span>
+            </div>
+            <p class="track-quote">« Dis à la vigne, dis au vent, que j’ai essayé d’être vivant… »</p>
+            <p class="track-desc">Une œuvre contemplative sur le passage des saisons, les carnets de chansons et la plénitude d'un homme de 60 ans. C'est de ce texte qu'est tirée la devise du spectacle : <em>« J'ai vécu d'accords mineurs et d'aurores »</em>.</p>
+            <div class="players-row">
+                <div class="player-box">
+                    <label>🎧 Version <span>Radio Edit / Orchestrale</span> (Album & Cinéma)</label>
+                    <audio controls preload="none" src="bertrand-charpilloz-sur-le-creux-de-ma-main-radio-edit.mp3"></audio>
+                </div>
+                <div class="player-box">
+                    <label>🎹 Version <span>Piano-Voix</span> (Récital L'Altesse Ego)</label>
+                    <audio controls preload="none" src="bertrand-charpilloz-sur-le-creux-de-ma-main-piano-voix.mp3"></audio>
+                </div>
+            </div>
+        </div>
+
+        <div class="track-card">
+            <div class="track-header">
+                <h3 class="track-title">03. Le Fil Rouge</h3>
+                <span class="track-meta">78 BPM · Mi mineur · Récit Autobiographique</span>
+            </div>
+            <p class="track-quote">« Mars deux mille vingt-quatre… Une vie à me battre pour voir ma fille grandir. »</p>
+            <p class="track-desc">Colonne vertébrale émotionnelle du répertoire : d'avril 1997 (l'AVC hémorragique où la vie ne tient plus qu'à un fil) jusqu'à la reconquête patiente de la marche, de la parole et du bonheur paternel.</p>
+            <div class="players-row">
+                <div class="player-box">
+                    <label>🎧 Version <span>Radio Edit</span> (Montée Cinématographique)</label>
+                    <audio controls preload="none" src="bertrand-charpilloz-le-fil-rouge-radio-edit.mp3"></audio>
+                </div>
+                <div class="player-box">
+                    <label>🎹 Version <span>Piano-Voix</span> (Confidence au ras du micro)</label>
+                    <audio controls preload="none" src="bertrand-charpilloz-le-fil-rouge-piano-voix.mp3"></audio>
+                </div>
+            </div>
+        </div>
+
+        <div class="track-card">
+            <div class="track-header">
+                <h3 class="track-title">04. Mon Altesse Ego</h3>
+                <span class="track-meta">115 BPM · Swing Cabaret-Blues</span>
+            </div>
+            <p class="track-quote">« Toi, ma petite idée secrète, de t’avoir sous ma couette, un bout de vie… ce serait chouette. »</p>
+            <p class="track-desc">Chanson éponyme du récital écrite en hommage à la pianiste Marie-Françoise Coelho. Un inventaire poétique, espiègle et sensuel qui fait swinger la langue française avec un flegme pince-sans-rire.</p>
+            <div class="players-row">
+                <div class="player-box">
+                    <label>🎧 Version <span>Radio Edit</span> (Groove Chanson-Blues)</label>
+                    <audio controls preload="none" src="bertrand-charpilloz-mon-altesse-ego-radio-edit.mp3"></audio>
+                </div>
+                <div class="player-box">
+                    <label>🎹 Version <span>Piano-Voix</span> (Duo Scénique 115 BPM)</label>
+                    <audio controls preload="none" src="bertrand-charpilloz-mon-altesse-ego-piano-voix.mp3"></audio>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="repertoire" class="rep-box">
+        <h3>Répertoire Intégral — 21 Œuvres Originales</h3>
+        <p>Paroles et musiques : Bertrand Charpilloz (Livret intégral des textes et maquettes complètes sur demande professionnelle)</p>
+        <ul class="rep-list">
+            <li><span>01.</span> Sunset Boulevard</li>
+            <li><span>02.</span> Sur le creux de ma main</li>
+            <li><span>03.</span> Le Fil Rouge</li>
+            <li><span>04.</span> Mon Altesse Ego</li>
+            <li><span>05.</span> Le mal des mots</li>
+            <li><span>06.</span> Nadine</li>
+            <li><span>07.</span> Vanessa je vais je va va</li>
+            <li><span>08.</span> Bruxelles</li>
+            <li><span>09.</span> Comme si jamais</li>
+            <li><span>10.</span> Oh ma jolie Lisa</li>
+            <li><span>11.</span> Sally</li>
+            <li><span>12.</span> Ma belle Alsace</li>
+            <li><span>13.</span> Goodbye</li>
+            <li><span>14.</span> Personne dans ta vie</li>
+            <li><span>15.</span> Last Vegas</li>
+            <li><span>16.</span> Sur la terrasse du Sénéquier</li>
+            <li><span>17.</span> L'élégance</li>
+            <li><span>18.</span> Reviens</li>
+            <li><span>19.</span> Les moustiques</li>
+            <li><span>20.</span> Mrs Parker</li>
+            <li><span>21.</span> The French Ambassadeur</li>
+        </ul>
+    </div>
+</section>
+
+<div class="divider"></div>
+
+<section id="auteur">
+    <div class="bio-grid">
+        <div class="bio-image">
+            <img src="bertrand-charpilloz-auteur-compositeur-chanson-francaise.png" alt="Portrait officiel de Bertrand Charpilloz, auteur-compositeur-interprète de chanson française">
+        </div>
+        <div class="bio-content">
+            <span class="hero-tag">L'Auteur-Compositeur-Interprète</span>
+            <h3>La gravité solaire d'un parcours hors norme</h3>
+            <p>Né le 20 janvier 1966 à Saverne d'un père suisse et d'une mère métisse originaire de la Martinique, <strong>Bertrand Charpilloz</strong> puise dans ses racines plurielles un sens inné de la mélodie et du rythme, forgé dès l'enfance par la pratique de l'accordéon.</p>
+            <p>Ingénieur-conseil en organisation et gestion d'entreprise, sa vie est traversée par des épreuves fondatrices : la disparition tragique de sa sœur aînée Dominique dans le crash du Mont Sainte-Odile le jour de ses 26 ans (20 janvier 1992), puis un grave accident vasculaire cérébral hémorragique en 1997 qui le conduit à trois années de rééducation. En 2013, il publie le récit autobiographique <em>« Mes liaisons cérébrales »</em>.</p>
+            <p>À 60 ans, il livre un catalogue de <strong>21 chansons originales</strong> où l'élégance du verbe (calembours, portraits féminins, voyages) rencontre une sincérité à l'état brut, dans la lignée de Serge Gainsbourg, Alain Bashung, Benjamin Biolay ou Alain Souchon.</p>
+        </div>
+    </div>
+</section>
+
+<section id="scene">
+    <div class="section-header">
+        <h2>Opportunités de Partenariat</h2>
+        <p>Un projet structuré autour de trois axes de développement complémentaires sur l'espace francophone (France, Belgique, Suisse romande).</p>
+    </div>
+    <div class="pro-cards">
+        <div class="pro-card">
+            <h4>1. Édition Musicale & Synchro</h4>
+            <p>Catalogue cohérent de <strong>21 textes originaux</strong> déposés, à haute densité littéraire. Fort potentiel de synchronisation audiovisuelle (cinéma, fictions, documentaires) et de réinterprétation.</p>
+        </div>
+        <div class="pro-card">
+            <h4>2. Production Discographique</h4>
+            <p>Maquettes de pré-production finalisées (versions <em>Radio Edit</em> et <em>Piano-Voix</em>). Prêt pour l'entrée en studio acoustique afin de graver le grain de baryton naturel et le jeu pianistique de Marie-Françoise Coelho.</p>
+        </div>
+        <div class="pro-card">
+            <h4>3. Scène & Tournée (Plateau Léger)</h4>
+            <p>Le récital <strong>« L'Altesse Ego »</strong> en duo piano-voix offre une souplesse économique optimale parfaitement calibrée pour les théâtres, scènes conventionnées et centres culturels de <strong>80 à 500 places</strong>.</p>
+        </div>
+    </div>
+</section>
+
+<footer id="contact">
+    <h2 class="serif" style="font-size:2.5rem;margin-bottom:1rem">Contact Professionnel & Booking</h2>
+    <p style="color:var(--muted);margin:0 auto 2rem;max-width:720px">Pour recevoir le livret intégral des 21 textes (PDF), accéder à l'ensemble des maquettes ou échanger sur une collaboration (Édition, Label, Scène) :</p>
+    <div class="contact-actions">
+        <button type="button" class="btn btn-primary" onclick="showC('mail',false)">✉️ Afficher / Masquer l'E-mail Pro</button>
+        <button type="button" class="btn btn-outline" onclick="showC('tel',false)">📞 Afficher / Masquer la Ligne Directe</button>
+    </div>
+    <div id="cbox" class="reveal-box"></div>
+    <p style="font-size:1.2rem;letter-spacing:2px;color:var(--gold);margin-bottom:3rem"><strong>BERTRAND CHARPILLOZ</strong><br>France · Suisse · Belgique</p>
+    <p style="font-size:0.75rem;color:var(--muted);opacity:0.6">© 2026 Bertrand Charpilloz — Tous droits réservés (Paroles et Musiques : Bertrand Charpilloz).</p>
+</footer>
+
+<script>
+function go(id){
+    var e=document.getElementById(id);
+    if(e)e.scrollIntoView({behavior:'smooth'});
+}
+
+var auds=document.querySelectorAll('audio');
+auds.forEach(function(a){
+    a.addEventListener('play',function(){
+        auds.forEach(function(o){
+            if(o!==a)o.pause();
+        });
+    });
+});
+
+var currentC='';
+function closeC(){
+    var b=document.getElementById('cbox');
+    b.style.display='none';
+    b.innerHTML='';
+    currentC='';
+}
+
+function showC(t,forceOpen){
+    var b=document.getElementById('cbox');
+    if(!forceOpen && b.style.display==='block' && currentC===t){
+        closeC();
+        return;
+    }
+    currentC=t;
+    b.style.display='block';
+    var closeBtn='<button type="button" class="close-box" onclick="closeC()">✕ Masquer</button>';
+
+    if(t==='mail'){
+        var m=atob('YmVydHJhbmQuY2hhcnBpbGxvekBnbWFpbC5jb20=');
+        var s=encodeURIComponent("Contact Pro — L'Altesse Ego (Bertrand Charpilloz)");
+        var gmailUrl='https://mail.google.com/mail/?view=cm&fs=1&to='+m+'&su='+s;
+        b.innerHTML=closeBtn+
+            '<p style="margin-bottom:0.9rem">✉️ Contact Direction Artistique & Booking :<br><strong style="color:var(--gold);font-size:1.15rem">'+m+'</strong></p>'+
+            '<div>'+
+                '<button type="button" class="badge" onclick="cp(\''+m+'\',this)">📋 Copier l\'adresse e-mail</button>'+
+                '<a href="'+gmailUrl+'" target="_blank" rel="noopener" class="badge">✉️ Écrire via Gmail (Web)</a>'+
+                '<a href="mailto:'+m+'?subject='+s+'" class="badge">✉️ Application Mail / Mobile</a>'+
+            '</div>';
+    }else{
+        var td=atob('MDYgODEgMDQgNDIgNDc=');
+        var tl=atob('KzMzNjgxMDQ0MjQ3');
+        b.innerHTML=closeBtn+
+            '<p style="margin-bottom:0.9rem">📞 Ligne Directe Professionnelle :<br><strong style="color:var(--gold);font-size:1.15rem">'+td+'</strong></p>'+
+            '<div>'+
+                '<button type="button" class="badge" onclick="cp(\''+td+'\',this)">📋 Copier le numéro</button>'+
+                '<a href="tel:'+tl+'" class="badge">📞 Appeler directement</a>'+
+            '</div>';
+    }
+}
+
+function cp(txt,btn){
+    navigator.clipboard.writeText(txt).then(function(){
+        var o=btn.innerText;
+        btn.innerText='✓ Copié dans le presse-papier !';
+        setTimeout(function(){btn.innerText=o;},2200);
+    });
+}
+</script>
+</body>
+</html>
