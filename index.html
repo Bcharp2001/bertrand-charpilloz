@@ -19,6 +19,7 @@
             --border-subtle: rgba(244, 239, 230, 0.12);
         }
         * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
         body {
             background-color: var(--bg-black);
             color: var(--ivory);
@@ -78,6 +79,7 @@
             padding: 1rem 2rem; font-size: 0.8rem; letter-spacing: 2px;
             text-transform: uppercase; text-decoration: none; border-radius: 2px;
             transition: all 0.3s; cursor: pointer; font-family: 'Montserrat', sans-serif;
+            display: inline-block;
         }
         .btn-primary { background-color: var(--red-thread); color: var(--ivory); border: 1px solid var(--red-thread); }
         .btn-primary:hover { background-color: #a3151b; }
@@ -143,7 +145,18 @@
         .pro-card h4 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; color: var(--amber-gold); margin-bottom: 1rem; }
         .pro-card p { font-size: 0.88rem; color: var(--ivory-muted); }
         footer { background-color: #050504; border-top: 1px solid var(--border-subtle); padding: 70px 8%; text-align: center; }
-        .contact-actions { display: flex; justify-content: center; gap: 1.2rem; flex-wrap: wrap; margin-bottom: 2.5rem; }
+        .contact-actions { display: flex; justify-content: center; gap: 1.2rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
+        .contact-reveal-box {
+            display: none; max-width: 520px; margin: 0 auto 2.5rem; padding: 1.5rem;
+            background: var(--bg-card); border: 1px solid var(--amber-gold); border-radius: 4px;
+        }
+        .contact-reveal-box p { font-size: 1.05rem; color: var(--ivory); margin-bottom: 0.8rem; word-break: break-all; }
+        .copy-badge {
+            background: rgba(212, 154, 86, 0.15); color: var(--amber-gold); border: 1px solid var(--amber-gold);
+            padding: 0.4rem 1rem; font-size: 0.75rem; letter-spacing: 1.5px; text-transform: uppercase;
+            cursor: pointer; border-radius: 2px; margin: 0 0.4rem;
+        }
+        .copy-badge:hover { background: var(--amber-gold); color: var(--bg-black); }
         @media (max-width: 900px) {
             .hero, .bio-grid, .players-row, .pro-cards, .repertoire-list { grid-template-columns: 1fr; }
             .hero-title { font-size: 3rem; }
@@ -275,62 +288,4 @@
                 <div class="players-row">
                     <div class="player-box">
                         <label>🎧 Version <span>Radio Edit</span> (Groove Chanson-Blues)</label>
-                        <audio controls preload="none" src="bertrand-charpilloz-mon-altesse-ego-radio-edit.mp3"></audio>
-                    </div>
-                    <div class="player-box">
-                        <label>🎹 Version <span>Piano-Voix</span> (Duo Scénique 115 BPM)</label>
-                        <audio controls preload="none" src="bertrand-charpilloz-mon-altesse-ego-piano-voix.mp3"></audio>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- CATALOGUE COMPLET DES 21 TITRES -->
-        <div id="repertoire" class="repertoire-box">
-            <h3>Répertoire Intégral — 21 Œuvres Originales</h3>
-            <p>Paroles et musiques : Bertrand Charpilloz (Livret intégral des textes et maquettes complètes sur demande professionnelle)</p>
-            <ul class="repertoire-list">
-                <li><span>01.</span> Sunset Boulevard</li>
-                <li><span>02.</span> Sur le creux de ma main</li>
-                <li><span>03.</span> Le Fil Rouge</li>
-                <li><span>04.</span> Mon Altesse Ego</li>
-                <li><span>05.</span> Le mal des mots</li>
-                <li><span>06.</span> Nadine</li>
-                <li><span>07.</span> Vanessa je vais je va va</li>
-                <li><span>08.</span> Bruxelles</li>
-                <li><span>09.</span> Comme si jamais</li>
-                <li><span>10.</span> Oh ma jolie Lisa</li>
-                <li><span>11.</span> Sally</li>
-                <li><span>12.</span> Ma belle Alsace</li>
-                <li><span>13.</span> Goodbye</li>
-                <li><span>14.</span> Personne dans ta vie</li>
-                <li><span>15.</span> Last Vegas</li>
-                <li><span>16.</span> Sur la terrasse du Sénéquier</li>
-                <li><span>17.</span> L'élégance</li>
-                <li><span>18.</span> Reviens</li>
-                <li><span>19.</span> Les moustiques</li>
-                <li><span>20.</span> Mrs Parker</li>
-                <li><span>21.</span> The French Ambassadeur</li>
-            </ul>
-        </div>
-    </section>
-
-    <div class="red-line-divider"></div>
-
-    <section id="auteur">
-        <div class="bio-grid">
-            <div class="bio-image">
-                <img src="bertrand-charpilloz-auteur-compositeur-chanson-francaise.png" alt="Portrait officiel de Bertrand Charpilloz, auteur-compositeur-interprète de chanson française">
-            </div>
-            <div class="bio-content">
-                <span class="hero-tag">L'Auteur-Compositeur-Interprète</span>
-                <h3>La gravité solaire d'un parcours hors norme</h3>
-                <p>
-                    Né le 20 janvier 1966 à Saverne d'un père suisse et d'une mère métisse originaire de la Martinique, 
-                    <strong>Bertrand Charpilloz</strong> puise dans ses racines plurielles un sens inné de la mélodie et du rythme, 
-                    forgé dès l'enfance par la pratique de l'accordéon.
-                </p>
-                <p>
-                    Ingénieur-conseil en organisation et gestion d'entreprise, sa vie est traversée par des épreuves fondatrices : 
-                    la disparition tragique de sa sœur aînée Dominique dans le crash du Mont Sainte-Odile le jour de ses 26 ans (20 janvier 1992), 
-                    puis un grave accident
+                        <audio controls preload="
