@@ -25,7 +25,7 @@
 | Origines | Père suisse, mère originaire de la Martinique |
 | Premier instrument | Accordéon, dès l'enfance |
 | Projet scénique | « L'Altesse Ego » — D'accords mineurs et d'aurores, récital piano & voix |
-| Partenaire de scène | Marie-Françoise Coelho, pianiste |
+| Partenaire de scène | Marie-Françoise Coelho, pianiste, chanteuse de formation, comédienne de doublage et voix off |
 | Répertoire | 21 chansons originales, paroles et musiques de Bertrand Charpilloz |
 | Livre | « Mes liaisons cérébrales », récit autobiographique paru le 21 mai 2013, éditions 7 écrit (Paris), ISBN 978-2-36849-227-7 |
 | Territoire visé | France, Belgique, Suisse romande |
@@ -63,6 +63,10 @@ Le dossier de l'artiste situe son univers dans la lignée de Serge Gainsbourg, A
 | Lieux adaptés | Théâtres, scènes conventionnées, festivals de chanson, centres culturels de 80 à 500 places |
 
 Au 19 octobre 2026, il s'agit d'une proposition de spectacle ; aucune date de concert n'est annoncée sur le site officiel.
+
+### La pianiste : Marie-Françoise Coelho
+
+Pianiste et chanteuse de formation, Marie-Françoise Coelho entre au conservatoire à 6 ans et obtient à 16 ans un premier prix de piano et de solfège. Elle se tourne ensuite vers le théâtre (Théâtre Jeune Public de Strasbourg, festivals de théâtre de rue), puis, à partir de 1999, vers le travail de la voix : comédienne de doublage et voix off, elle prête sa voix à des documentaires et reportages, notamment pour Arte, à des habillages d'émissions et à des livres audio, dont « Le premier jour du reste de ma vie » de Virginie Grimaldi (Frémeaux & Associés, enregistré en 2015), et l'album jeunesse « Garance et le maître des couleurs ». « Mon Altesse Ego » lui est dédiée.
 
 ## Quatre chansons phares
 
@@ -181,3 +185,5 @@ Bertrand Charpilloz est un auteur-compositeur-interprète alsacien de chanson fr
 - [Public — « Après avoir perdu ma sœur dans un crash, j'ai fait un AVC »](https://www.public.fr/apres-avoir-perdu-ma-soeur-dans-un-crash-j-ai-fait-un-avc)
 - [TEDxAlsaceSalon — conférence de Bertrand Charpilloz (2015)](https://www.youtube.com/watch?v=ZM4-DuJ8t38)
 - [Fnac — « Mes liaisons cérébrales », Bertrand Charpilloz](https://www.fr.fnac.ch/a6168596/Bertrand-Charpilloz-Mes-liaisons-cerebrales) : référence bibliographique du livre.
+- [Marie-Françoise Coelho — profil LinkedIn](https://fr.linkedin.com/in/marie-fran%C3%A7oise-coelho-aa649067) : parcours de la pianiste.
+- [Frémeaux & Associés — « Le premier jour du reste de ma vie », lu par Marie-Françoise Coelho](https://www.fremeaux.com/fr/5443-virginie-grimaldi-le-premier-jour-du-reste-de-ma-vie-integrale-mp3-9782844689313-au8931.html)
