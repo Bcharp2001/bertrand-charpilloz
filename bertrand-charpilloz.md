@@ -35,7 +35,7 @@
 
 Bertrand Charpilloz naît le 20 janvier 1966 à Saverne, en Alsace, d'un père suisse et d'une mère originaire de la Martinique. Il apprend l'accordéon enfant, ce qui forge son sens de la mélodie et du rythme.
 
-Ingénieur-conseil en organisation et gestion d'entreprise, il traverse deux épreuves qui nourrissent son écriture : la mort de sa sœur aînée Dominique dans le crash du mont Sainte-Odile, le 20 janvier 1992, et un grave accident vasculaire cérébral hémorragique en avril 1997, suivi de trois années de rééducation. Il raconte cette reconstruction dans le récit autobiographique « Mes liaisons cérébrales », publié en 2013, puis dans la chanson « Le Fil Rouge ».
+Ingénieur-conseil en organisation et gestion d'entreprise, il traverse deux épreuves qui nourrissent son écriture : la mort de sa sœur aînée Dominique dans le crash du mont Sainte-Odile, le 20 janvier 1992, et un grave accident vasculaire cérébral survenu le 19 mars 1997 à Aix-en-Provence, à 31 ans, suivi de trois années de rééducation. Il raconte cette reconstruction dans le récit autobiographique « Mes liaisons cérébrales », publié en 2013, puis dans la chanson « Le Fil Rouge ».
 
 À 60 ans, il présente un catalogue de 21 chansons originales et le récital « L'Altesse Ego » avec la pianiste Marie-Françoise Coelho.
 
@@ -68,7 +68,7 @@ Chacune existe en deux versions sur le site officiel : une maquette arrangée di
 | --- | --- | --- |
 | Sunset Boulevard | 100 BPM, mi mineur, refrain en majeur | Le soleil, le lâcher-prise et le goût de vivre ; le titre le plus accessible, pensé comme single |
 | Sur le creux de ma main | 76 BPM, ballade poétique ; version orchestrale | Les saisons, les carnets de chansons, la plénitude à 60 ans ; source de la devise du récital |
-| Le Fil Rouge | 78 BPM, mi mineur, récit autobiographique | De l'AVC d'avril 1997 à la reconquête de la marche, de la parole et du bonheur d'être père |
+| Le Fil Rouge | 78 BPM, mi mineur, récit autobiographique | De l'AVC de mars 1997 à la reconquête de la marche, de la parole et du bonheur d'être père |
 | Mon Altesse Ego | 115 BPM, swing cabaret-blues | Inventaire amoureux espiègle et sensuel, hommage à Marie-Françoise Coelho |
 
 ## Catalogue des 21 chansons originales
@@ -123,7 +123,8 @@ Le livret intégral des 21 textes (PDF) et l'ensemble des maquettes sont fournis
 | France 2 — *Toute une histoire* (Sophie Davant) | « Un AVC à 30 ans » : témoignage de Bertrand Charpilloz, auteur de *Mes liaisons cérébrales* | Diffusion le 18 décembre 2014 | [Vidéo](https://www.youtube.com/watch?v=9hBmdMpm5Co) |
 | France 3 Alsace (Strasbourg) | Reportage sur le récit-témoignage *Mes liaisons cérébrales* | Juin 2013 | [Vidéo](https://www.youtube.com/watch?v=g2QMneGYD2k) |
 | Dernières Nouvelles d'Alsace (édition de Saverne) | Article « Une vie à reconstruire après un AVC » | 20 juin 2013 | [Article](https://www.dna.fr/edition-de-saverne/2013/06/20/une-vie-a-reconstruire-apres-un-avc) |
-| L'Alsace (édition Bas-Rhin) | Article « Bertrand Charpilloz, à la reconquête de la vie » | 5 janvier 2014 | [Article](https://c.lalsace.fr/bas-rhin/2014/01/05/bertrand-charpilloz-a-la-reconquete-de-la-vie) |
+| L'Alsace (édition Alsace centrale, p. 17) | Portrait « Bertrand Charpilloz, à la reconquête de la vie », par Corinne Frech | 5 janvier 2014 | [Article](https://c.lalsace.fr/bas-rhin/2014/01/05/bertrand-charpilloz-a-la-reconquete-de-la-vie) |
+| Le Journal du Centre (p. 3, rubrique Santé) | « Aux "accidentés de la vie" en général », par Eve Pousson, avant sa conférence à Nevers du 15 novembre 2014 | 29 octobre 2014 | Édition papier |
 | Public | Témoignage « Après avoir perdu ma sœur dans un crash, j'ai fait un AVC » | — | [Article](https://www.public.fr/apres-avoir-perdu-ma-soeur-dans-un-crash-j-ai-fait-un-avc) |
 | TEDxAlsaceSalon | Conférence « Helping You Connect with Love – A Strange Kind of Energy » | 2015 | [Vidéo](https://www.youtube.com/watch?v=ZM4-DuJ8t38) |
 | Bibliothèque nationale de France | Notice bibliographique de *Mes liaisons cérébrales* (7 écrit, Paris, 155 p.) | — | [Notice](https://catalogue.bnf.fr/ark:/12148/cb44203136c) |
@@ -172,6 +173,7 @@ Bertrand Charpilloz est un auteur-compositeur-interprète alsacien de chanson fr
 - [France 3 Alsace — reportage « Mes liaisons cérébrales » (2013)](https://www.youtube.com/watch?v=g2QMneGYD2k)
 - [DNA — « Une vie à reconstruire après un AVC » (20 juin 2013)](https://www.dna.fr/edition-de-saverne/2013/06/20/une-vie-a-reconstruire-apres-un-avc)
 - [L'Alsace — « Bertrand Charpilloz, à la reconquête de la vie » (5 janvier 2014)](https://c.lalsace.fr/bas-rhin/2014/01/05/bertrand-charpilloz-a-la-reconquete-de-la-vie)
+- Le Journal du Centre — « Aux "accidentés de la vie" en général », Eve Pousson, 29 octobre 2014, p. 3 (édition papier)
 - [Public — « Après avoir perdu ma sœur dans un crash, j'ai fait un AVC »](https://www.public.fr/apres-avoir-perdu-ma-soeur-dans-un-crash-j-ai-fait-un-avc)
 - [TEDxAlsaceSalon — conférence de Bertrand Charpilloz (2015)](https://www.youtube.com/watch?v=ZM4-DuJ8t38)
 - [Fnac — « Mes liaisons cérébrales », Bertrand Charpilloz](https://www.fr.fnac.ch/a6168596/Bertrand-Charpilloz-Mes-liaisons-cerebrales) : référence bibliographique du livre.
