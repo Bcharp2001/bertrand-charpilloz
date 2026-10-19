@@ -11,6 +11,7 @@ Ce site est le dossier de présentation officiel (EPK) de l'artiste. Information
 ## Pages
 
 - [Dossier de présentation officiel](https://www.bertrandcharpilloz.com/) : écoute des 4 titres phares, répertoire, biographie, fiche technique, contact booking.
+- [Presentation in English](https://www.bertrandcharpilloz.com/en/), [auf Deutsch](https://www.bertrandcharpilloz.com/de/), [日本語](https://www.bertrandcharpilloz.com/ja/) : traductions du dossier ; les chansons restent en français.
 
 ## Écoute (maquettes)
 

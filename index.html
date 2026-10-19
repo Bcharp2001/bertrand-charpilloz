@@ -7,6 +7,11 @@
 <meta name="description" content="Bertrand Charpilloz, auteur-compositeur-interprète de chanson française à texte. 21 chansons originales et L'Altesse Ego, récital piano-voix avec la pianiste Marie-Françoise Coelho. Écoute, répertoire, fiche technique et contact booking.">
 <meta name="author" content="Bertrand Charpilloz">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<link rel="alternate" hreflang="fr" href="https://www.bertrandcharpilloz.com/">
+<link rel="alternate" hreflang="en" href="https://www.bertrandcharpilloz.com/en/">
+<link rel="alternate" hreflang="de" href="https://www.bertrandcharpilloz.com/de/">
+<link rel="alternate" hreflang="ja" href="https://www.bertrandcharpilloz.com/ja/">
+<link rel="alternate" hreflang="x-default" href="https://www.bertrandcharpilloz.com/">
 <link rel="canonical" href="https://www.bertrandcharpilloz.com/">
 <meta name="theme-color" content="#0a0908">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -927,6 +932,10 @@ footer{background:#050504;border-top:1px solid var(--border);padding:70px 8%;tex
 .footer-links{font-size:0.75rem;color:var(--muted);opacity:0.75;margin-top:0.6rem}
 .footer-links a{color:var(--muted)}
 
+.lang-switch{display:inline-flex;gap:0.7rem;margin-left:1.6rem;padding-left:1rem;border-left:1px solid var(--border)}
+.nav-links .lang-switch a{margin-left:0;font-size:0.7rem;letter-spacing:1px}
+.nav-links .lang-switch a[aria-current]{color:var(--gold)}
+
 /* PRESSE */
 .press-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
 .press-card{display:block;background:var(--card);border:1px solid var(--border);border-top:2px solid var(--gold);border-radius:4px;padding:1.6rem;text-decoration:none;color:var(--ivory);transition:border-color 0.2s,transform 0.2s}
@@ -1009,6 +1018,7 @@ footer{background:#050504;border-top:1px solid var(--border);padding:70px 8%;tex
     .pro-card h3{font-size:1.35rem;margin-bottom:0.6rem}
     .tech-strip{padding:1.4rem 1rem;gap:1.2rem}
     .press-grid{grid-template-columns:1fr}
+    .lang-switch{margin-left:0;padding-left:0;border-left:none}
     footer{padding:50px 5%}
     .footer-title{font-size:clamp(1.65rem, 7vw, 2.1rem)}
     .contact-actions{flex-direction:column;width:100%}
@@ -1027,6 +1037,8 @@ footer{background:#050504;border-top:1px solid var(--border);padding:70px 8%;tex
         <a href="#scene">La Scène & Fiche Pro</a>
         <a href="#presse">Presse</a>
         <a href="#contact">Contact Pro</a>
+        <span class="lang-switch"><a href="/" lang="fr" hreflang="fr" aria-current="page">FR</a><a href="/en/" lang="en" hreflang="en">EN</a><a href="/de/" lang="de" hreflang="de">DE</a><a href="/ja/" lang="ja" hreflang="ja">日本語</a></span>
+        
     </div>
 </nav>
 

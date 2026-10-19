@@ -1,10 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.bertrandcharpilloz.com/</loc>
     <lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.bertrandcharpilloz.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bertrandcharpilloz.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.bertrandcharpilloz.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.bertrandcharpilloz.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.bertrandcharpilloz.com/"/>
     <image:image><image:loc>https://www.bertrandcharpilloz.com/img/bertrand-charpilloz-l-altesse-ego-recital-piano-voix-1040.webp</image:loc></image:image>
     <image:image><image:loc>https://www.bertrandcharpilloz.com/img/bertrand-charpilloz-portrait.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.bertrandcharpilloz.com/en/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.bertrandcharpilloz.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bertrandcharpilloz.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.bertrandcharpilloz.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.bertrandcharpilloz.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.bertrandcharpilloz.com/"/>
+  </url>
+  <url>
+    <loc>https://www.bertrandcharpilloz.com/de/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.bertrandcharpilloz.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bertrandcharpilloz.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.bertrandcharpilloz.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.bertrandcharpilloz.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.bertrandcharpilloz.com/"/>
+  </url>
+  <url>
+    <loc>https://www.bertrandcharpilloz.com/ja/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.bertrandcharpilloz.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.bertrandcharpilloz.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.bertrandcharpilloz.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.bertrandcharpilloz.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.bertrandcharpilloz.com/"/>
   </url>
   <url>
     <loc>https://www.bertrandcharpilloz.com/bertrand-charpilloz.md</loc>
