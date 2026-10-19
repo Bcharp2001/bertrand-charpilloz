@@ -101,11 +101,14 @@ def translate(fr_html, cfg):
         if "Affiche du récital" in tag.get("alt", ""): tag["alt"] = m["alt_poster"]
         elif "Portrait officiel" in tag.get("alt", ""): tag["alt"] = m["alt_portrait"]
     soup.find("nav")["aria-label"] = m["nav_label"]
+    fx = soup.find(class_="facts")
+    if fx is not None and "facts_label" in m:
+        fx["aria-label"] = m["facts_label"]
     for a in soup.find_all("audio"):
         lab = a.get("aria-label", "")
-        mt = re.match(r"Écouter (.+), version (Radio Edit|piano-voix) — Bertrand Charpilloz", lab)
+        mt = re.match(r"Écouter (.+), maquette (arrangée|piano-voix) — Bertrand Charpilloz", lab)
         if mt:
-            ver = m["v_radio"] if mt.group(2) == "Radio Edit" else m["v_piano"]
+            ver = m["v_radio"] if mt.group(2) == "arrangée" else m["v_piano"]
             a["aria-label"] = m["aria_listen"].format(title=mt.group(1), version=ver)
     unused = sorted(k for k in missing if k not in ("L'essentiel sur",))
     return head + str(soup), unused
