@@ -39,6 +39,10 @@ Ingénieur-conseil en organisation et gestion d'entreprise, il traverse deux ép
 
 À 60 ans, il présente un catalogue de 21 chansons originales et le récital « L'Altesse Ego » avec la pianiste Marie-Françoise Coelho.
 
+## Philosophie
+
+Bertrand Charpilloz chante ce qu'il a vécu. De ses épreuves, il a tiré une philosophie de résilience : relativiser, lâcher prise, préférer l'amour au désespoir et la poésie au chaos. Le sous-titre de son livre la résume : « Rien n'est jamais perdu. L'important est de ne jamais désespérer. » Il se consacre à la musique depuis 2009.
+
 ## Style et influences
 
 L'écriture est au centre du projet : calembours et jeux de langue, portraits féminins, chroniques de lieux, résilience et passage du temps. L'interprétation, au plus près du micro, alterne parlé-chanté et refrains mélodiques.
