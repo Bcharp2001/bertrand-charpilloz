@@ -55,7 +55,7 @@ Le dossier de l'artiste situe son univers dans la lignée de Serge Gainsbourg, A
 
 | Paramètre | Format |
 | --- | --- |
-| Formation | Duo piano & voix : Bertrand Charpilloz (chant), Marie-Françoise Coelho (piano) |
+| Formation | Duo piano & voix : Bertrand Charpilloz (chant), Marie-Françoise Coelho (piano, chant en duo sur certains passages, rôle de conteuse) |
 | Durée | 1 h 15 à 1 h 30, jusqu'à 21 titres |
 | Format court | Set découverte ou première partie d'environ 35 minutes |
 | Équipe en tournée | 2 à 3 personnes |
@@ -66,7 +66,7 @@ Au 19 octobre 2026, il s'agit d'une proposition de spectacle ; aucune date de co
 
 ### La pianiste : Marie-Françoise Coelho
 
-Pianiste et chanteuse de formation, Marie-Françoise Coelho entre au conservatoire à 6 ans et obtient à 16 ans un premier prix de piano et de solfège. Elle se tourne ensuite vers le théâtre (Théâtre Jeune Public de Strasbourg, festivals de théâtre de rue), puis, à partir de 1999, vers le travail de la voix : comédienne de doublage et voix off, elle prête sa voix à des documentaires et reportages, notamment pour Arte, à des habillages d'émissions et à des livres audio, dont « Le premier jour du reste de ma vie » de Virginie Grimaldi (Frémeaux & Associés, enregistré en 2015), et l'album jeunesse « Garance et le maître des couleurs ». « Mon Altesse Ego » lui est dédiée.
+Pianiste et chanteuse de formation, Marie-Françoise Coelho entre au conservatoire à 6 ans et obtient à 16 ans un premier prix de piano et de solfège. Elle se tourne ensuite vers le théâtre (Théâtre Jeune Public de Strasbourg, festivals de théâtre de rue), puis, à partir de 1999, vers le travail de la voix : comédienne de doublage et voix off, elle prête sa voix à des documentaires et reportages, notamment pour Arte, à des habillages d'émissions et à des livres audio, dont « Le premier jour du reste de ma vie » de Virginie Grimaldi (Frémeaux & Associés, enregistré en 2015), et l'album jeunesse « Garance et le maître des couleurs ». Dans « L'Altesse Ego », elle ne se contente pas d'accompagner : elle chante en duo certains passages du récital et y tient un rôle de conteuse. « Mon Altesse Ego » lui est dédiée.
 
 ## Quatre chansons phares
 
