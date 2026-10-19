@@ -27,7 +27,7 @@
 | Projet scénique | « L'Altesse Ego » — D'accords mineurs et d'aurores, récital piano & voix |
 | Partenaire de scène | Marie-Françoise Coelho, pianiste |
 | Répertoire | 21 chansons originales, paroles et musiques de Bertrand Charpilloz |
-| Livre | « Mes liaisons cérébrales », récit autobiographique, éditions 7 écrit (Paris), ISBN 978-2-36849-227-7 |
+| Livre | « Mes liaisons cérébrales », récit autobiographique paru le 21 mai 2013, éditions 7 écrit (Paris), ISBN 978-2-36849-227-7 |
 | Territoire visé | France, Belgique, Suisse romande |
 | Profession hors scène | Ingénieur-conseil en organisation et gestion d'entreprise |
 
@@ -35,7 +35,7 @@
 
 Bertrand Charpilloz naît le 20 janvier 1966 à Saverne, en Alsace, d'un père suisse et d'une mère originaire de la Martinique. Il apprend l'accordéon enfant, ce qui forge son sens de la mélodie et du rythme.
 
-Ingénieur-conseil en organisation et gestion d'entreprise, il traverse deux épreuves qui nourrissent son écriture : la mort de sa sœur aînée Dominique dans le crash du mont Sainte-Odile, le 20 janvier 1992, et un grave accident vasculaire cérébral survenu le 19 mars 1997 à Aix-en-Provence, à 31 ans, suivi de trois années de rééducation. Il raconte cette reconstruction dans le récit autobiographique « Mes liaisons cérébrales », publié en 2013, puis dans la chanson « Le Fil Rouge ».
+Ingénieur-conseil en organisation et gestion d'entreprise, il traverse deux épreuves qui nourrissent son écriture : la mort de sa sœur aînée Dominique dans le crash du mont Sainte-Odile, le 20 janvier 1992, et un grave accident vasculaire cérébral survenu le 19 mars 1997 à Aix-en-Provence, à 31 ans, suivi de trois années de rééducation. Il raconte cette reconstruction dans le récit autobiographique « Mes liaisons cérébrales », paru le 21 mai 2013, puis dans la chanson « Le Fil Rouge ».
 
 À 60 ans, il présente un catalogue de 21 chansons originales et le récital « L'Altesse Ego » avec la pianiste Marie-Françoise Coelho.
 
