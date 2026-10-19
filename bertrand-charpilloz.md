@@ -9,6 +9,7 @@
 - **Nature :** fiche d'identité de référence, rédigée à partir des informations publiées par l'artiste sur son site officiel.
 - **Adresse de cette fiche :** https://www.bertrandcharpilloz.com/bertrand-charpilloz.md
 - **Wikidata :** [Q141775145](https://www.wikidata.org/wiki/Q141775145)
+- **BnF (notice d'autorité) :** [16925793x](https://catalogue.bnf.fr/ark:/12148/cb16925793x)
 
 
 ## En bref
@@ -26,7 +27,7 @@
 | Projet scénique | « L'Altesse Ego » — D'accords mineurs et d'aurores, récital piano & voix |
 | Partenaire de scène | Marie-Françoise Coelho, pianiste |
 | Répertoire | 21 chansons originales, paroles et musiques de Bertrand Charpilloz |
-| Livre | « Mes liaisons cérébrales », récit autobiographique, 2013 |
+| Livre | « Mes liaisons cérébrales », récit autobiographique, éditions 7 écrit (Paris), ISBN 978-2-36849-227-7 |
 | Territoire visé | France, Belgique, Suisse romande |
 | Profession hors scène | Ingénieur-conseil en organisation et gestion d'entreprise |
 
@@ -115,6 +116,15 @@ Le livret intégral des 21 textes (PDF) et l'ensemble des maquettes sont fournis
 
 État au 19 octobre 2026 : aucun album publié, aucun label et aucune tournée ne sont annoncés.
 
+## Presse et médias
+
+| Média | Contenu | Date | Lien |
+| --- | --- | --- | --- |
+| France 2 — *Toute une histoire* (Sophie Davant) | « Un AVC à 30 ans » : témoignage de Bertrand Charpilloz, auteur de *Mes liaisons cérébrales* | Diffusion le 18 décembre 2014 | [Vidéo](https://www.youtube.com/watch?v=9hBmdMpm5Co) |
+| France 3 Alsace (Strasbourg) | Reportage sur le récit-témoignage *Mes liaisons cérébrales* | Juin 2013 | [Vidéo](https://www.youtube.com/watch?v=g2QMneGYD2k) |
+| TEDxAlsaceSalon | Conférence « Helping You Connect with Love – A Strange Kind of Energy » | 2015 | [Vidéo](https://www.youtube.com/watch?v=ZM4-DuJ8t38) |
+| Bibliothèque nationale de France | Notice bibliographique de *Mes liaisons cérébrales* (7 écrit, Paris, 155 p.) | — | [Notice](https://catalogue.bnf.fr/ark:/12148/cb44203136c) |
+
 ## Questions fréquentes
 
 **Qui est Bertrand Charpilloz ?**
@@ -152,4 +162,9 @@ Bertrand Charpilloz est un auteur-compositeur-interprète alsacien de chanson fr
 
 - [Site officiel de Bertrand Charpilloz — dossier de présentation « L'Altesse Ego »](https://www.bertrandcharpilloz.com/), consulté le 19 octobre 2026 : biographie, catalogue, crédits, format du récital.
 - [Wikidata — Bertrand Charpilloz (Q141775145)](https://www.wikidata.org/wiki/Q141775145) : fiche d'identité structurée.
+- [BnF — notice d'autorité Bertrand Charpilloz (1966-....)](https://catalogue.bnf.fr/ark:/12148/cb16925793x)
+- [BnF — notice bibliographique « Mes liaisons cérébrales »](https://catalogue.bnf.fr/ark:/12148/cb44203136c)
+- [France 2 — Toute une histoire, « Un AVC à 30 ans » (18 décembre 2014)](https://www.youtube.com/watch?v=9hBmdMpm5Co)
+- [France 3 Alsace — reportage « Mes liaisons cérébrales » (2013)](https://www.youtube.com/watch?v=g2QMneGYD2k)
+- [TEDxAlsaceSalon — conférence de Bertrand Charpilloz (2015)](https://www.youtube.com/watch?v=ZM4-DuJ8t38)
 - [Fnac — « Mes liaisons cérébrales », Bertrand Charpilloz](https://www.fr.fnac.ch/a6168596/Bertrand-Charpilloz-Mes-liaisons-cerebrales) : référence bibliographique du livre.

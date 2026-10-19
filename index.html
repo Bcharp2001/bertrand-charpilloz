@@ -67,7 +67,52 @@
         "Blues-cabaret"
       ],
       "sameAs": [
-        "https://www.wikidata.org/wiki/Q141775145"
+        "https://www.wikidata.org/wiki/Q141775145",
+        "https://catalogue.bnf.fr/ark:/12148/cb16925793x",
+        "https://data.bnf.fr/16925793/"
+      ],
+      "subjectOf": [
+        {
+          "@type": "VideoObject",
+          "name": "Toute une histoire : Un AVC à 30 ans",
+          "description": "Témoignage de Bertrand Charpilloz dans l'émission Toute une histoire présentée par Sophie Davant sur France 2, diffusée le 18 décembre 2014.",
+          "url": "https://www.youtube.com/watch?v=9hBmdMpm5Co",
+          "embedUrl": "https://www.youtube.com/embed/9hBmdMpm5Co",
+          "thumbnailUrl": "https://i.ytimg.com/vi/9hBmdMpm5Co/hqdefault.jpg",
+          "uploadDate": "2015-01-20",
+          "inLanguage": "fr",
+          "publisher": {
+            "@type": "Organization",
+            "name": "France 2"
+          }
+        },
+        {
+          "@type": "VideoObject",
+          "name": "Témoignage AVC - Mes Liaisons Cérébrales - Bertrand Charpilloz",
+          "description": "Reportage de France 3 Strasbourg sur le récit-témoignage Mes liaisons cérébrales de Bertrand Charpilloz.",
+          "url": "https://www.youtube.com/watch?v=g2QMneGYD2k",
+          "embedUrl": "https://www.youtube.com/embed/g2QMneGYD2k",
+          "thumbnailUrl": "https://i.ytimg.com/vi/g2QMneGYD2k/hqdefault.jpg",
+          "uploadDate": "2013-06-12",
+          "inLanguage": "fr",
+          "publisher": {
+            "@type": "Organization",
+            "name": "France 3 Alsace"
+          }
+        },
+        {
+          "@type": "VideoObject",
+          "name": "Helping You Connect with Love – A Strange Kind of Energy | Bertrand Charpilloz | TEDxAlsaceSalon",
+          "description": "Conférence TEDxAlsaceSalon de Bertrand Charpilloz sur l'amour et la confiance en soi.",
+          "url": "https://www.youtube.com/watch?v=ZM4-DuJ8t38",
+          "embedUrl": "https://www.youtube.com/embed/ZM4-DuJ8t38",
+          "thumbnailUrl": "https://i.ytimg.com/vi/ZM4-DuJ8t38/hqdefault.jpg",
+          "uploadDate": "2015-03-17",
+          "publisher": {
+            "@type": "Organization",
+            "name": "TEDx Talks"
+          }
+        }
       ]
     },
     {
@@ -615,8 +660,16 @@
       "genre": "Récit autobiographique",
       "inLanguage": "fr",
       "sameAs": [
+        "https://catalogue.bnf.fr/ark:/12148/cb44203136c",
         "https://www.fr.fnac.ch/a6168596/Bertrand-Charpilloz-Mes-liaisons-cerebrales"
-      ]
+      ],
+      "isbn": "978-2-36849-227-7",
+      "numberOfPages": 155,
+      "publisher": {
+        "@type": "Organization",
+        "name": "7 écrit éditions",
+        "location": "Paris"
+      }
     },
     {
       "@type": "WebSite",
@@ -819,6 +872,15 @@ footer{background:#050504;border-top:1px solid var(--border);padding:70px 8%;tex
 .footer-links{font-size:0.75rem;color:var(--muted);opacity:0.75;margin-top:0.6rem}
 .footer-links a{color:var(--muted)}
 
+/* PRESSE */
+.press-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem}
+.press-card{display:block;background:var(--card);border:1px solid var(--border);border-top:2px solid var(--gold);border-radius:4px;padding:1.6rem;text-decoration:none;color:var(--ivory);transition:border-color 0.2s,transform 0.2s}
+.press-card:hover,.press-card:focus-visible{border-color:var(--gold);transform:translateY(-2px)}
+.press-media{display:block;font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:0.6rem}
+.press-card h3{font-size:1.3rem;line-height:1.25;margin-bottom:0.6rem}
+.press-card p{font-size:0.84rem;color:var(--muted)}
+.press-cta{display:inline-block;margin-top:0.9rem;font-size:0.72rem;letter-spacing:1.5px;text-transform:uppercase;color:var(--red)}
+
 /* FAQ */
 .faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem 2.5rem;max-width:1100px;margin:0 auto}
 .faq-item{border-top:1px solid var(--border);padding-top:1.2rem}
@@ -830,6 +892,7 @@ footer{background:#050504;border-top:1px solid var(--border);padding:70px 8%;tex
    ========================================================= */
 @media (max-width: 950px) {
     .hero,.bio-grid,.players-row,.pro-cards,.themes-grid,.tech-strip,.faq-grid{grid-template-columns:1fr}
+    .press-grid{grid-template-columns:1fr 1fr}
     .hero{gap:2.5rem;padding:130px 6% 60px;min-height:auto}
     .bio-grid{gap:2.5rem}
     section{padding:60px 6%}
@@ -889,6 +952,7 @@ footer{background:#050504;border-top:1px solid var(--border);padding:70px 8%;tex
     .pro-card{padding:1.4rem 1.15rem}
     .pro-card h3{font-size:1.35rem;margin-bottom:0.6rem}
     .tech-strip{padding:1.4rem 1rem;gap:1.2rem}
+    .press-grid{grid-template-columns:1fr}
     footer{padding:50px 5%}
     .footer-title{font-size:clamp(1.65rem, 7vw, 2.1rem)}
     .contact-actions{flex-direction:column;width:100%}
@@ -905,6 +969,7 @@ footer{background:#050504;border-top:1px solid var(--border);padding:70px 8%;tex
         <a href="#repertoire">21 Titres</a>
         <a href="#auteur">L'Auteur</a>
         <a href="#scene">La Scène & Fiche Pro</a>
+        <a href="#presse">Presse</a>
         <a href="#contact">Contact Pro</a>
     </div>
 </nav>
@@ -1181,6 +1246,41 @@ footer{background:#050504;border-top:1px solid var(--border);padding:70px 8%;tex
             <strong>1 Piano + 1 Micro Chant</strong>
             <small>Installation & balances en 45 minutes</small>
         </div>
+    </div>
+</section>
+
+<div class="divider"></div>
+
+<section id="presse">
+    <div class="section-header">
+        <h2>Presse & Médias</h2>
+        <p>Télévision, conférence et référence bibliographique consacrées au parcours de <strong>Bertrand Charpilloz</strong>.</p>
+    </div>
+    <div class="press-grid">
+        <a class="press-card" href="https://www.youtube.com/watch?v=9hBmdMpm5Co" target="_blank" rel="noopener">
+            <span class="press-media">France 2 · Toute une histoire</span>
+            <h3>Un AVC à 30 ans</h3>
+            <p>Émission présentée par Sophie Davant, diffusée le 18 décembre 2014 : Bertrand Charpilloz raconte son AVC et sa reconstruction.</p>
+            <span class="press-cta">Voir l'émission ↗</span>
+        </a>
+        <a class="press-card" href="https://www.youtube.com/watch?v=g2QMneGYD2k" target="_blank" rel="noopener">
+            <span class="press-media">France 3 Alsace</span>
+            <h3>Témoignage : Mes liaisons cérébrales</h3>
+            <p>Reportage de France 3 Strasbourg (juin 2013) consacré à son récit de résilience, publié aux éditions 7 écrit.</p>
+            <span class="press-cta">Voir le reportage ↗</span>
+        </a>
+        <a class="press-card" href="https://www.youtube.com/watch?v=ZM4-DuJ8t38" target="_blank" rel="noopener">
+            <span class="press-media">TEDxAlsaceSalon</span>
+            <h3>A Strange Kind of Energy</h3>
+            <p>Conférence TEDx (2015) sur l'amour, la confiance en soi et l'art de changer de regard sur sa vie.</p>
+            <span class="press-cta">Voir la conférence ↗</span>
+        </a>
+        <a class="press-card" href="https://catalogue.bnf.fr/ark:/12148/cb44203136c" target="_blank" rel="noopener">
+            <span class="press-media">Bibliothèque nationale de France</span>
+            <h3>Mes liaisons cérébrales</h3>
+            <p>Récit autobiographique, éditions 7 écrit, Paris, 155 pages. ISBN 978-2-36849-227-7.</p>
+            <span class="press-cta">Voir la notice BnF ↗</span>
+        </a>
     </div>
 </section>
 
