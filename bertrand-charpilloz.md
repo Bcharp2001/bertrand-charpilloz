@@ -8,6 +8,7 @@
 - **Langue :** français
 - **Nature :** fiche d'identité de référence, rédigée à partir des informations publiées par l'artiste sur son site officiel.
 - **Adresse de cette fiche :** https://www.bertrandcharpilloz.com/bertrand-charpilloz.md
+- **Wikidata :** [Q141775145](https://www.wikidata.org/wiki/Q141775145)
 
 
 ## En bref
@@ -19,6 +20,7 @@
 | Genre | Chanson française à texte ; parlé-chanté ; blues-cabaret ; swing |
 | Voix | Baryton grave |
 | Naissance | 20 janvier 1966, Saverne (Bas-Rhin, Alsace, France) |
+| Nationalité | Franco-suisse |
 | Origines | Père suisse, mère originaire de la Martinique |
 | Premier instrument | Accordéon, dès l'enfance |
 | Projet scénique | « L'Altesse Ego » — D'accords mineurs et d'aurores, récital piano & voix |
@@ -149,4 +151,5 @@ Bertrand Charpilloz est un auteur-compositeur-interprète alsacien de chanson fr
 ## Sources
 
 - [Site officiel de Bertrand Charpilloz — dossier de présentation « L'Altesse Ego »](https://www.bertrandcharpilloz.com/), consulté le 19 octobre 2026 : biographie, catalogue, crédits, format du récital.
+- [Wikidata — Bertrand Charpilloz (Q141775145)](https://www.wikidata.org/wiki/Q141775145) : fiche d'identité structurée.
 - [Fnac — « Mes liaisons cérébrales », Bertrand Charpilloz](https://www.fr.fnac.ch/a6168596/Bertrand-Charpilloz-Mes-liaisons-cerebrales) : référence bibliographique du livre.

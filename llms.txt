@@ -21,4 +21,5 @@ Ce site est le dossier de présentation officiel (EPK) de l'artiste. Information
 
 ## Optional
 
+- [Wikidata — Bertrand Charpilloz (Q141775145)](https://www.wikidata.org/wiki/Q141775145) : fiche d'identité structurée.
 - [Mes liaisons cérébrales — notice Fnac](https://www.fr.fnac.ch/a6168596/Bertrand-Charpilloz-Mes-liaisons-cerebrales) : récit autobiographique de l'artiste (2013).
