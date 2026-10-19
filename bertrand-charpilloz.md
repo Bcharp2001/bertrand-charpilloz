@@ -163,6 +163,7 @@ Bertrand Charpilloz est un auteur-compositeur-interprète alsacien de chanson fr
 - [Site officiel de Bertrand Charpilloz — dossier de présentation « L'Altesse Ego »](https://www.bertrandcharpilloz.com/), consulté le 19 octobre 2026 : biographie, catalogue, crédits, format du récital.
 - [Wikidata — Bertrand Charpilloz (Q141775145)](https://www.wikidata.org/wiki/Q141775145) : fiche d'identité structurée.
 - [BnF — notice d'autorité Bertrand Charpilloz (1966-....)](https://catalogue.bnf.fr/ark:/12148/cb16925793x)
+- [Wikidata — Mes liaisons cérébrales (Q141778596)](https://www.wikidata.org/wiki/Q141778596)
 - [BnF — notice bibliographique « Mes liaisons cérébrales »](https://catalogue.bnf.fr/ark:/12148/cb44203136c)
 - [France 2 — Toute une histoire, « Un AVC à 30 ans » (18 décembre 2014)](https://www.youtube.com/watch?v=9hBmdMpm5Co)
 - [France 3 Alsace — reportage « Mes liaisons cérébrales » (2013)](https://www.youtube.com/watch?v=g2QMneGYD2k)
