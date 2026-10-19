@@ -68,7 +68,7 @@ Chacune existe en deux versions sur le site officiel : une maquette arrangée di
 | --- | --- | --- |
 | Sunset Boulevard | 100 BPM, mi mineur, refrain en majeur | Le soleil, le lâcher-prise et le goût de vivre ; le titre le plus accessible, pensé comme single |
 | Sur le creux de ma main | 76 BPM, ballade poétique ; version orchestrale | Les saisons, les carnets de chansons, la plénitude à 60 ans ; source de la devise du récital |
-| Le Fil Rouge | 78 BPM, mi mineur, récit autobiographique | De l'AVC de mars 1997 à la reconquête de la marche, de la parole et du bonheur d'être père |
+| Le Fil Rouge | 78 BPM, mi mineur, récit autobiographique | De l'AVC du 19 mars 1997 et du réveil du coma le 1er avril à la reconquête de la marche, de la parole et du bonheur d'être père |
 | Mon Altesse Ego | 115 BPM, swing cabaret-blues | Inventaire amoureux espiègle et sensuel, hommage à Marie-Françoise Coelho |
 
 ## Catalogue des 21 chansons originales
