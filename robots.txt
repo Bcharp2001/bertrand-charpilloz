@@ -1,0 +1,6 @@
+# Bertrand Charpilloz — site officiel
+# Moteurs de recherche et assistants IA bienvenus.
+User-agent: *
+Allow: /
+
+Sitemap: https://www.bertrandcharpilloz.com/sitemap.xml
