@@ -112,6 +112,38 @@
             "@type": "Organization",
             "name": "TEDx Talks"
           }
+        },
+        {
+          "@type": "NewsArticle",
+          "headline": "Bertrand Charpilloz, à la reconquête de la vie",
+          "url": "https://c.lalsace.fr/bas-rhin/2014/01/05/bertrand-charpilloz-a-la-reconquete-de-la-vie",
+          "datePublished": "2014-01-05",
+          "inLanguage": "fr",
+          "publisher": {
+            "@type": "Organization",
+            "name": "L'Alsace"
+          }
+        },
+        {
+          "@type": "Article",
+          "headline": "Après avoir perdu ma sœur dans un crash, j'ai fait un AVC",
+          "url": "https://www.public.fr/apres-avoir-perdu-ma-soeur-dans-un-crash-j-ai-fait-un-avc",
+          "inLanguage": "fr",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Public"
+          }
+        },
+        {
+          "@type": "NewsArticle",
+          "headline": "Une vie à reconstruire après un AVC",
+          "url": "https://www.dna.fr/edition-de-saverne/2013/06/20/une-vie-a-reconstruire-apres-un-avc",
+          "datePublished": "2013-06-20",
+          "inLanguage": "fr",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Dernières Nouvelles d'Alsace"
+          }
         }
       ]
     },
@@ -875,12 +907,13 @@ footer{background:#050504;border-top:1px solid var(--border);padding:70px 8%;tex
 .footer-links a{color:var(--muted)}
 
 /* PRESSE */
-.press-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem}
+.press-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
 .press-card{display:block;background:var(--card);border:1px solid var(--border);border-top:2px solid var(--gold);border-radius:4px;padding:1.6rem;text-decoration:none;color:var(--ivory);transition:border-color 0.2s,transform 0.2s}
 .press-card:hover,.press-card:focus-visible{border-color:var(--gold);transform:translateY(-2px)}
 .press-media{display:block;font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:0.6rem}
 .press-card h3{font-size:1.3rem;line-height:1.25;margin-bottom:0.6rem}
 .press-card p{font-size:0.84rem;color:var(--muted)}
+.press-card:last-child:nth-child(3n+1){grid-column:1/-1}
 .press-cta{display:inline-block;margin-top:0.9rem;font-size:0.72rem;letter-spacing:1.5px;text-transform:uppercase;color:var(--red)}
 
 /* FAQ */
@@ -1256,7 +1289,7 @@ footer{background:#050504;border-top:1px solid var(--border);padding:70px 8%;tex
 <section id="presse">
     <div class="section-header">
         <h2>Presse & Médias</h2>
-        <p>Télévision, conférence et référence bibliographique consacrées au parcours de <strong>Bertrand Charpilloz</strong>.</p>
+        <p>Télévision, presse écrite, conférence et référence bibliographique consacrées au parcours de <strong>Bertrand Charpilloz</strong>.</p>
     </div>
     <div class="press-grid">
         <a class="press-card" href="https://www.youtube.com/watch?v=9hBmdMpm5Co" target="_blank" rel="noopener">
@@ -1270,6 +1303,24 @@ footer{background:#050504;border-top:1px solid var(--border);padding:70px 8%;tex
             <h3>Témoignage : Mes liaisons cérébrales</h3>
             <p>Reportage de France 3 Strasbourg (juin 2013) consacré à son récit de résilience, publié aux éditions 7 écrit.</p>
             <span class="press-cta">Voir le reportage ↗</span>
+        </a>
+        <a class="press-card" href="https://www.dna.fr/edition-de-saverne/2013/06/20/une-vie-a-reconstruire-apres-un-avc" target="_blank" rel="noopener">
+            <span class="press-media">DNA · Édition de Saverne · 20 juin 2013</span>
+            <h3>Une vie à reconstruire après un AVC</h3>
+            <p>Article des Dernières Nouvelles d'Alsace, édition de Saverne, sa ville natale.</p>
+            <span class="press-cta">Lire l'article ↗</span>
+        </a>
+        <a class="press-card" href="https://c.lalsace.fr/bas-rhin/2014/01/05/bertrand-charpilloz-a-la-reconquete-de-la-vie" target="_blank" rel="noopener">
+            <span class="press-media">L'Alsace · 5 janvier 2014</span>
+            <h3>Bertrand Charpilloz, à la reconquête de la vie</h3>
+            <p>Portrait publié dans l'édition Bas-Rhin du quotidien régional L'Alsace.</p>
+            <span class="press-cta">Lire l'article ↗</span>
+        </a>
+        <a class="press-card" href="https://www.public.fr/apres-avoir-perdu-ma-soeur-dans-un-crash-j-ai-fait-un-avc" target="_blank" rel="noopener">
+            <span class="press-media">Public</span>
+            <h3>« Après avoir perdu ma sœur dans un crash, j'ai fait un AVC »</h3>
+            <p>Témoignage de Bertrand Charpilloz dans le magazine Public.</p>
+            <span class="press-cta">Lire l'article ↗</span>
         </a>
         <a class="press-card" href="https://www.youtube.com/watch?v=ZM4-DuJ8t38" target="_blank" rel="noopener">
             <span class="press-media">TEDxAlsaceSalon</span>

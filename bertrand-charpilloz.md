@@ -122,6 +122,9 @@ Le livret intégral des 21 textes (PDF) et l'ensemble des maquettes sont fournis
 | --- | --- | --- | --- |
 | France 2 — *Toute une histoire* (Sophie Davant) | « Un AVC à 30 ans » : témoignage de Bertrand Charpilloz, auteur de *Mes liaisons cérébrales* | Diffusion le 18 décembre 2014 | [Vidéo](https://www.youtube.com/watch?v=9hBmdMpm5Co) |
 | France 3 Alsace (Strasbourg) | Reportage sur le récit-témoignage *Mes liaisons cérébrales* | Juin 2013 | [Vidéo](https://www.youtube.com/watch?v=g2QMneGYD2k) |
+| Dernières Nouvelles d'Alsace (édition de Saverne) | Article « Une vie à reconstruire après un AVC » | 20 juin 2013 | [Article](https://www.dna.fr/edition-de-saverne/2013/06/20/une-vie-a-reconstruire-apres-un-avc) |
+| L'Alsace (édition Bas-Rhin) | Article « Bertrand Charpilloz, à la reconquête de la vie » | 5 janvier 2014 | [Article](https://c.lalsace.fr/bas-rhin/2014/01/05/bertrand-charpilloz-a-la-reconquete-de-la-vie) |
+| Public | Témoignage « Après avoir perdu ma sœur dans un crash, j'ai fait un AVC » | — | [Article](https://www.public.fr/apres-avoir-perdu-ma-soeur-dans-un-crash-j-ai-fait-un-avc) |
 | TEDxAlsaceSalon | Conférence « Helping You Connect with Love – A Strange Kind of Energy » | 2015 | [Vidéo](https://www.youtube.com/watch?v=ZM4-DuJ8t38) |
 | Bibliothèque nationale de France | Notice bibliographique de *Mes liaisons cérébrales* (7 écrit, Paris, 155 p.) | — | [Notice](https://catalogue.bnf.fr/ark:/12148/cb44203136c) |
 
@@ -167,5 +170,8 @@ Bertrand Charpilloz est un auteur-compositeur-interprète alsacien de chanson fr
 - [BnF — notice bibliographique « Mes liaisons cérébrales »](https://catalogue.bnf.fr/ark:/12148/cb44203136c)
 - [France 2 — Toute une histoire, « Un AVC à 30 ans » (18 décembre 2014)](https://www.youtube.com/watch?v=9hBmdMpm5Co)
 - [France 3 Alsace — reportage « Mes liaisons cérébrales » (2013)](https://www.youtube.com/watch?v=g2QMneGYD2k)
+- [DNA — « Une vie à reconstruire après un AVC » (20 juin 2013)](https://www.dna.fr/edition-de-saverne/2013/06/20/une-vie-a-reconstruire-apres-un-avc)
+- [L'Alsace — « Bertrand Charpilloz, à la reconquête de la vie » (5 janvier 2014)](https://c.lalsace.fr/bas-rhin/2014/01/05/bertrand-charpilloz-a-la-reconquete-de-la-vie)
+- [Public — « Après avoir perdu ma sœur dans un crash, j'ai fait un AVC »](https://www.public.fr/apres-avoir-perdu-ma-soeur-dans-un-crash-j-ai-fait-un-avc)
 - [TEDxAlsaceSalon — conférence de Bertrand Charpilloz (2015)](https://www.youtube.com/watch?v=ZM4-DuJ8t38)
 - [Fnac — « Mes liaisons cérébrales », Bertrand Charpilloz](https://www.fr.fnac.ch/a6168596/Bertrand-Charpilloz-Mes-liaisons-cerebrales) : référence bibliographique du livre.
