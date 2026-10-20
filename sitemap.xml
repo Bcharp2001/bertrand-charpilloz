@@ -42,4 +42,28 @@
     <loc>https://www.bertrandcharpilloz.com/bertrand-charpilloz.md</loc>
     <lastmod>2026-10-19</lastmod>
   </url>
+  <url>
+    <loc>https://www.bertrandcharpilloz.com/chansons/sunset-boulevard/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bertrandcharpilloz.com/chansons/sur-le-creux-de-ma-main/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bertrandcharpilloz.com/chansons/le-fil-rouge/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bertrandcharpilloz.com/chansons/mon-altesse-ego/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
