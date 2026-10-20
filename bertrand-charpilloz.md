@@ -79,6 +79,8 @@ Chacune existe en deux versions sur le site officiel : une maquette arrangée di
 | Le Fil Rouge | 78 BPM, mi mineur, récit autobiographique | De l'AVC du 18 mars 1997 et du réveil du coma le 1er avril à la reconquête de la marche, de la parole et du bonheur d'être père |
 | Mon Altesse Ego | 115 BPM, swing cabaret-blues | Inventaire amoureux espiègle et sensuel, hommage à Marie-Françoise Coelho |
 
+
+Chaque chanson phare a sa page avec l'histoire, les paroles complètes et l'écoute : [Sunset Boulevard](https://www.bertrandcharpilloz.com/chansons/sunset-boulevard/), [Sur le creux de ma main](https://www.bertrandcharpilloz.com/chansons/sur-le-creux-de-ma-main/), [Le Fil Rouge](https://www.bertrandcharpilloz.com/chansons/le-fil-rouge/), [Mon Altesse Ego](https://www.bertrandcharpilloz.com/chansons/mon-altesse-ego/).
 ## Catalogue des 21 chansons originales
 
 Paroles et musiques : Bertrand Charpilloz. Le catalogue est organisé en quatre tableaux thématiques.
