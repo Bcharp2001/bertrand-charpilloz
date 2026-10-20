@@ -41,13 +41,13 @@ Ingénieur-conseil en organisation et gestion d'entreprise, il traverse deux ép
 
 ## Philosophie
 
-Bertrand Charpilloz chante ce qu'il a vécu. De ses épreuves, il a tiré une philosophie de résilience : relativiser, lâcher prise, préférer l'amour au désespoir et la poésie au chaos. Le sous-titre de son livre la résume : « Rien n'est jamais perdu. L'important est de ne jamais désespérer. » Il se consacre à la musique depuis 2009.
+Bertrand Charpilloz chante ce qu'il a vécu. De ses épreuves, il a tiré une philosophie de résilience : relativiser, lâcher prise, préférer l'amour au désespoir et la poésie au chaos. Le sous-titre de son livre la résume : « Rien n'est jamais perdu. L'important est de ne jamais désespérer. » Il écrit des chansons depuis le début des années 1990 (« GoodBye » et « Repartir à zéro » datent de 1994) et se consacre à la musique depuis 2009.
 
 ## Style et influences
 
-L'écriture est au centre du projet : calembours et jeux de langue, portraits féminins, chroniques de lieux, résilience et passage du temps. L'interprétation, au plus près du micro, alterne parlé-chanté et refrains mélodiques.
+L'écriture est au centre du projet. Le répertoire est d'abord amoureux : une douzaine de chansons sur 21 parlent de désir, de rupture et de portraits de femmes, avec un humour de calembours (« Vanessa je vais je va », « Les moustiques ») et une sensualité pince-sans-rire (« Mon Altesse Ego »). Viennent ensuite les chroniques de lieux, la résilience (« Le Fil Rouge ») et une méditation sur la finitude (« Sur le creux de ma main »). L'interprétation, au plus près du micro, alterne parlé-chanté et refrains mélodiques.
 
-Le dossier de l'artiste situe son univers dans la lignée de Serge Gainsbourg, Alain Bashung, Benjamin Biolay et Alain Souchon. Il s'agit de références revendiquées par l'artiste, non de collaborations.
+Le dossier de l'artiste situe son univers dans la lignée de Serge Gainsbourg, Alain Bashung, Arno et Alain Souchon ; « GoodBye » s'inspire du poème « À une passante » de Baudelaire. Il s'agit de références revendiquées par l'artiste, non de collaborations.
 
 ## L'Altesse Ego — le récital piano-voix
 
@@ -66,7 +66,7 @@ Au 19 octobre 2026, il s'agit d'une proposition de spectacle ; aucune date de co
 
 ### La pianiste : Marie-Françoise Coelho
 
-Pianiste et chanteuse de formation, Marie-Françoise Coelho entre au conservatoire à 6 ans et obtient à 16 ans un premier prix de piano et de solfège. Elle se tourne ensuite vers le théâtre (Théâtre Jeune Public de Strasbourg, festivals de théâtre de rue), puis, à partir de 1999, vers le travail de la voix : comédienne de doublage et voix off, elle prête sa voix à des documentaires et reportages, notamment pour Arte, à des habillages d'émissions et à des livres audio, dont « Le premier jour du reste de ma vie » de Virginie Grimaldi (Frémeaux & Associés, enregistré en 2015), et l'album jeunesse « Garance et le maître des couleurs ». Dans « L'Altesse Ego », elle ne se contente pas d'accompagner : elle chante en duo certains passages du récital et y tient un rôle de conteuse. « Mon Altesse Ego » lui est dédiée.
+Pianiste et chanteuse de formation, Marie-Françoise Coelho entre au conservatoire à 6 ans et obtient à 16 ans un premier prix de piano et de solfège. Elle se tourne ensuite vers le théâtre (Théâtre Jeune Public de Strasbourg, festivals de théâtre de rue), puis, à partir de 1999, vers le travail de la voix : comédienne de doublage et voix off, elle prête sa voix à des documentaires et reportages, notamment pour Arte, à des habillages d'émissions et à des livres audio, dont « Le premier jour du reste de ma vie » de Virginie Grimaldi (Frémeaux & Associés, enregistré en 2015), et l'album jeunesse « Garance et le maître des couleurs ». Dans « L'Altesse Ego », elle ne se contente pas d'accompagner : elle chante en duo certains passages du récital, à commencer par « Personne dans ta vie », écrite pour deux voix, et y tient un rôle de conteuse qui relie les tableaux du récital. « Mon Altesse Ego » lui est dédiée.
 
 ## Quatre chansons phares
 
