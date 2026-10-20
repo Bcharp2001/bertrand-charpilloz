@@ -126,7 +126,7 @@ def page(song):
                 "name": f"{title} — paroles et histoire de la chanson | Bertrand Charpilloz",
                 "description": song["lead"],
                 "inLanguage": "fr",
-                "isPartOf": {"@id": f"{SITE}/#website"},
+                "isPartOf": {"@id": f"{SITE}/#site"},
                 "about": {"@id": f"{url}#oeuvre"},
                 "breadcrumb": {"@id": f"{url}#fil"},
             },
