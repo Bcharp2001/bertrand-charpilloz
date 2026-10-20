@@ -37,4 +37,5 @@ Les enregistrements en ligne sont des maquettes d'arrangement (maquette arrangé
 - [BnF — notice d'autorité Bertrand Charpilloz](https://catalogue.bnf.fr/ark:/12148/cb16925793x)
 - [BnF — Mes liaisons cérébrales](https://catalogue.bnf.fr/ark:/12148/cb44203136c) : 7 écrit éditions, ISBN 978-2-36849-227-7.
 - [Wikidata — Bertrand Charpilloz (Q141775145)](https://www.wikidata.org/wiki/Q141775145) : fiche d'identité structurée.
+- [MusicBrainz — Bertrand Charpilloz](https://musicbrainz.org/artist/98954001-9524-43fb-9ea7-a34196b19802) : fiche artiste de la base musicale ouverte MusicBrainz.
 - [Mes liaisons cérébrales — notice Fnac](https://www.fr.fnac.ch/a6168596/Bertrand-Charpilloz-Mes-liaisons-cerebrales) : récit autobiographique de l'artiste (2013).
