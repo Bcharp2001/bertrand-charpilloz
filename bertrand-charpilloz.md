@@ -86,33 +86,33 @@ Paroles et musiques : Bertrand Charpilloz. Le catalogue est organisé en quatre 
 ### I. Figures féminines, prénoms et muses
 - 04 — Mon Altesse Ego (swing cabaret)
 - 06 — Nadine (portrait féminin)
-- 07 — Vanessa je vais je va va (parlé-chanté, rimes)
+- 07 — Vanessa je vais je va (parlé-chanté, rimes)
 - 10 — Oh ma jolie Lisa (ballade tendre)
-- 11 — Sally (couleur anglo-saxonne)
-- 20 — Mrs Parker (atmosphère jazz-noir)
+- 11 — Sally (nocturne blues)
+- 20 — Mrs Parker (cabaret-blues, jeux de sons)
+- 13 — Goodbye (la belle inconnue, d'après « À une passante » de Baudelaire ; écrite en 1994)
 
 ### II. Géographies intimes et escales
 - 01 — Sunset Boulevard (single solaire)
 - 08 — Bruxelles (escale belge)
 - 12 — Ma belle Alsace (racines alsaciennes)
-- 15 — Last Vegas (mirage et calembour)
 - 16 — Sur la terrasse du Sénéquier (chronique méditerranéenne, Saint-Tropez)
 
 ### III. Résilience, temps et finitude
 - 02 — Sur le creux de ma main (poésie et saisons)
 - 03 — Le Fil Rouge (récit de résilience)
 - 09 — Comme si jamais (mélancolie et temps)
-- 13 — Goodbye (adieu et détachement)
+- 15 — Last Vegas (adieu à l'être aimé et lâcher-prise ; calembour sur Las Vegas)
 - 14 — Personne dans ta vie (nocturne urbain, duo)
+- 21 — Repartir à zéro (blues de la renaissance ; écrite en 1994)
 
 ### IV. Élégance du verbe, philosophie et flegme
 - 05 — Le mal des mots (jeux de verbe)
-- 17 — L'élégance (valse fraternelle)
+- 17 — L'élégance (humanisme et tempérance)
 - 18 — Reviens (appel intime)
 - 19 — Les moustiques (fable philosophique)
-- 21 — The French Ambassadeur (flegme et dandysme)
 
-« Last Vegas » et « The French Ambassadeur » sont les graphies officielles.
+« Last Vegas » est la graphie officielle.
 
 ## Collaborations possibles
 
