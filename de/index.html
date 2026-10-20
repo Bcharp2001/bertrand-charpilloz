@@ -170,13 +170,41 @@
             "name": "Le Journal du Centre"
           }
         }
-      ]
+      ],
+      "email": "mailto:contact@bertrandcharpilloz.com",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "booking",
+        "email": "contact@bertrandcharpilloz.com",
+        "availableLanguage": [
+          "fr"
+        ]
+      }
     },
     {
       "@type": "Person",
       "@id": "https://www.bertrandcharpilloz.com/#coelho",
       "name": "Marie-Françoise Coelho",
-      "jobTitle": "Pianiste"
+      "jobTitle": "Pianiste",
+      "description": "Pianiste et chanteuse de formation, comédienne de doublage et voix off française. Pianiste, chanteuse en duo et conteuse du récital piano-voix « L'Altesse Ego » de Bertrand Charpilloz.",
+      "hasOccupation": [
+        {
+          "@type": "Occupation",
+          "name": "Pianiste"
+        },
+        {
+          "@type": "Occupation",
+          "name": "Comédienne de doublage et voix off"
+        },
+        {
+          "@type": "Occupation",
+          "name": "Conteuse"
+        }
+      ],
+      "url": "https://www.bertrandcharpilloz.com/#pianiste",
+      "sameAs": [
+        "https://fr.linkedin.com/in/marie-fran%C3%A7oise-coelho-aa649067"
+      ]
     },
     {
       "@type": "MusicGroup",
@@ -237,7 +265,7 @@
       "recordedAs": [
         {
           "@type": "MusicRecording",
-          "name": "Sunset Boulevard (Radio Edit)",
+          "name": "Sunset Boulevard (maquette arrangée)",
           "byArtist": {
             "@id": "https://www.bertrandcharpilloz.com/#bertrand"
           },
@@ -250,15 +278,10 @@
         },
         {
           "@type": "MusicRecording",
-          "name": "Sunset Boulevard (Piano-Voix)",
-          "byArtist": [
-            {
-              "@id": "https://www.bertrandcharpilloz.com/#bertrand"
-            },
-            {
-              "@id": "https://www.bertrandcharpilloz.com/#coelho"
-            }
-          ],
+          "name": "Sunset Boulevard (maquette piano-voix)",
+          "byArtist": {
+            "@id": "https://www.bertrandcharpilloz.com/#bertrand"
+          },
           "duration": "PT4M18S",
           "audio": {
             "@type": "AudioObject",
@@ -283,7 +306,7 @@
       "recordedAs": [
         {
           "@type": "MusicRecording",
-          "name": "Sur le creux de ma main (Radio Edit)",
+          "name": "Sur le creux de ma main (maquette arrangée)",
           "byArtist": {
             "@id": "https://www.bertrandcharpilloz.com/#bertrand"
           },
@@ -296,15 +319,10 @@
         },
         {
           "@type": "MusicRecording",
-          "name": "Sur le creux de ma main (Piano-Voix)",
-          "byArtist": [
-            {
-              "@id": "https://www.bertrandcharpilloz.com/#bertrand"
-            },
-            {
-              "@id": "https://www.bertrandcharpilloz.com/#coelho"
-            }
-          ],
+          "name": "Sur le creux de ma main (maquette piano-voix)",
+          "byArtist": {
+            "@id": "https://www.bertrandcharpilloz.com/#bertrand"
+          },
           "duration": "PT4M33S",
           "audio": {
             "@type": "AudioObject",
@@ -328,7 +346,7 @@
       "recordedAs": [
         {
           "@type": "MusicRecording",
-          "name": "Le Fil Rouge (Radio Edit)",
+          "name": "Le Fil Rouge (maquette arrangée)",
           "byArtist": {
             "@id": "https://www.bertrandcharpilloz.com/#bertrand"
           },
@@ -341,15 +359,10 @@
         },
         {
           "@type": "MusicRecording",
-          "name": "Le Fil Rouge (Piano-Voix)",
-          "byArtist": [
-            {
-              "@id": "https://www.bertrandcharpilloz.com/#bertrand"
-            },
-            {
-              "@id": "https://www.bertrandcharpilloz.com/#coelho"
-            }
-          ],
+          "name": "Le Fil Rouge (maquette piano-voix)",
+          "byArtist": {
+            "@id": "https://www.bertrandcharpilloz.com/#bertrand"
+          },
           "duration": "PT4M13S",
           "audio": {
             "@type": "AudioObject",
@@ -374,7 +387,7 @@
       "recordedAs": [
         {
           "@type": "MusicRecording",
-          "name": "Mon Altesse Ego (Radio Edit)",
+          "name": "Mon Altesse Ego (maquette arrangée)",
           "byArtist": {
             "@id": "https://www.bertrandcharpilloz.com/#bertrand"
           },
@@ -387,15 +400,10 @@
         },
         {
           "@type": "MusicRecording",
-          "name": "Mon Altesse Ego (Piano-Voix)",
-          "byArtist": [
-            {
-              "@id": "https://www.bertrandcharpilloz.com/#bertrand"
-            },
-            {
-              "@id": "https://www.bertrandcharpilloz.com/#coelho"
-            }
-          ],
+          "name": "Mon Altesse Ego (maquette piano-voix)",
+          "byArtist": {
+            "@id": "https://www.bertrandcharpilloz.com/#bertrand"
+          },
           "duration": "PT3M22S",
           "audio": {
             "@type": "AudioObject",
@@ -840,6 +848,10 @@ audio{width:100%;max-width:100%;height:38px;display:block}
 .bio-image img{width:100%;height:auto;border-radius:4px;box-shadow:0 20px 50px rgba(0,0,0,0.8);display:block}
 .bio-content h2{font-size:2.4rem;margin-bottom:1.5rem;font-weight:400;line-height:1.2}
 .bio-content p{margin-bottom:1.2rem;color:var(--muted);font-size:0.95rem}
+.pianist{max-width:860px;margin:4rem auto 0;padding:2.2rem 2.5rem;border:1px solid var(--border);border-left:3px solid var(--gold);background:rgba(255,255,255,0.02)}
+.pianist h3{font-size:1.6rem;font-weight:400;margin:0.4rem 0 1rem}
+.pianist p{color:var(--muted);font-size:0.95rem;margin-bottom:1rem}
+.pianist p:last-child{margin-bottom:0}
 .pro-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;margin-top:3rem}
 .pro-card{background:var(--card);border:1px solid var(--border);padding:2rem;border-radius:4px}
 .pro-card h3{font-size:1.6rem;color:var(--gold);margin-bottom:1rem;line-height:1.25}
@@ -865,6 +877,13 @@ footer{background:#050504;border-top:1px solid var(--border);padding:70px 8%;tex
 .nav-links .lang-switch a{margin-left:0;font-size:0.7rem;letter-spacing:1px}
 .nav-links .lang-switch a[aria-current]{color:var(--gold)}
 
+/* EN BREF */
+.facts{display:grid;grid-template-columns:repeat(5,1fr);gap:1rem;max-width:1300px;margin:0 auto;padding:0 8% 2rem}
+.facts div{border-top:1px solid var(--border);padding-top:0.8rem}
+.facts span{display:block;font-size:0.7rem;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:0.3rem}
+.facts strong{font-weight:400;font-size:0.9rem;color:var(--ivory);line-height:1.4;display:block}
+.facts a{color:var(--ivory);overflow-wrap:anywhere}
+
 /* PRESSE */
 .press-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
 .press-card{display:block;background:var(--card);border:1px solid var(--border);border-top:2px solid var(--gold);border-radius:4px;padding:1.6rem;text-decoration:none;color:var(--ivory);transition:border-color 0.2s,transform 0.2s}
@@ -887,6 +906,7 @@ footer{background:#050504;border-top:1px solid var(--border);padding:70px 8%;tex
 @media (max-width: 950px) {
     .hero,.bio-grid,.players-row,.pro-cards,.themes-grid,.tech-strip,.faq-grid{grid-template-columns:1fr}
     .press-grid{grid-template-columns:1fr 1fr}
+    .facts{grid-template-columns:1fr 1fr;padding:0 6% 2rem}
     .hero{gap:2.5rem;padding:130px 6% 60px;min-height:auto}
     .bio-grid{gap:2.5rem}
     section{padding:60px 6%}
@@ -962,7 +982,7 @@ footer{background:#050504;border-top:1px solid var(--border);padding:70px 8%;tex
 <a href="#ecoute">Hören</a>
 <a href="#repertoire">21 Lieder</a>
 <a href="#auteur">Der Künstler</a>
-<a href="#scene">Bühne &amp; Technik</a>
+<a href="#scene">Profi-Bereich</a>
 <a href="#presse">Presse</a>
 <a href="#contact">Booking</a>
         <span class="lang-switch"><a href="/" lang="fr" hreflang="fr">FR</a><a href="/en/" lang="en" hreflang="en">EN</a><a href="/de/" lang="de" hreflang="de" aria-current="page">DE</a><a href="/ja/" lang="ja" hreflang="ja">日本語</a></span>
@@ -984,15 +1004,22 @@ footer{background:#050504;border-top:1px solid var(--border);padding:70px 8%;tex
         </p>
 <div class="btn-group">
 <a class="btn btn-primary" href="#ecoute">Die 4 Hauptlieder anhören</a>
-<a class="btn btn-outline" href="#contact" onclick="showC('mail',true)">Das Textbuch der 21 Lieder anfordern</a>
+<a class="btn btn-outline" href="mailto:contact@bertrandcharpilloz.com?subject=Livret%20des%2021%20textes%20%E2%80%94%20Bertrand%20Charpilloz">Das Textbuch der 21 Lieder anfordern</a>
 </div>
 </div>
 </header>
+<section aria-label="Auf einen Blick" class="facts">
+<div><span>Genre</span><strong>Literarisches französisches Chanson</strong></div>
+<div><span>Besetzung</span><strong>Duo Klavier und Stimme, 75 bis 90 Min.</strong></div>
+<div><span>Repertoire</span><strong>21 eigene Lieder auf Französisch</strong></div>
+<div><span>Gebiete</span><strong>Frankreich, Schweiz, Belgien, frankophone Welt</strong></div>
+<div><span>Kontakt</span><strong><a href="mailto:contact@bertrandcharpilloz.com">contact@<wbr/>bertrandcharpilloz.com</a></strong></div>
+</section>
 <div class="divider"></div>
 <section id="ecoute">
 <div class="section-header">
 <h2>Künstlerische Auswahl</h2>
-<p>Damit <strong>Musikverlage, Labels, Music Supervisors und Tourneebüros</strong> jede Facette des Projekts beurteilen können, werden die 4 Hauptlieder in <strong>zwei Fassungen</strong> vorgestellt: als Produktionsdemo <em>Radio Edit</em> (mögliche Single, Radio und Filmsynchronisation) und in einer Fassung für <em>Klavier und Stimme</em>, getreu der akustischen Schlichtheit der Bühnenshow.</p>
+<p>Für <strong>Musikverlage, Labels, Music Supervisors und Veranstalter</strong> wird jedes der 4 Hauptlieder in zwei Demos vorgestellt: als <em>arrangiertes Demo</em> (Single, Radio, Sync) und als Demo für <em>Klavier und Stimme</em>, nah an der Bühnenfassung. Diese Arrangement-Demos gehen der Studioaufnahme des Duos voraus, die vor jeder Veröffentlichung auf Streamingplattformen geplant ist.</p>
 </div>
 <div class="audio-grid">
 <!-- TITRE 1 -->
@@ -1016,11 +1043,11 @@ footer{background:#050504;border-top:1px solid var(--border);padding:70px 8%;tex
 </details>
 <div class="players-row">
 <div class="player-box">
-<p class="player-label">🎧 Fassung <span>Radio Edit</span> (Single &amp; Sync)</p>
+<p class="player-label">🎧 <span>Arrangiertes Demo</span> (Single &amp; Sync)</p>
 <audio aria-label="Sunset Boulevard anhören, Radio-Edit-Fassung — Bertrand Charpilloz" controls="" preload="none" src="/bertrand-charpilloz-sunset-boulevard-radio-edit.mp3"></audio>
 </div>
 <div class="player-box">
-<p class="player-label">🎹 Fassung <span>Klavier und Stimme</span> (Rezital L'Altesse Ego)</p>
+<p class="player-label">🎹 <span>Demo Klavier und Stimme</span> (Rezital L'Altesse Ego)</p>
 <audio aria-label="Sunset Boulevard anhören, Fassung für Klavier und Stimme — Bertrand Charpilloz" controls="" preload="none" src="/bertrand-charpilloz-sunset-boulevard-piano-voix.mp3"></audio>
 </div>
 </div>
@@ -1044,11 +1071,11 @@ footer{background:#050504;border-top:1px solid var(--border);padding:70px 8%;tex
 </details>
 <div class="players-row">
 <div class="player-box">
-<p class="player-label">🎧 Fassung <span>Radio Edit / Orchester</span> (Album &amp; Film)</p>
+<p class="player-label">🎧 <span>Orchester-Demo</span> (Album &amp; Film)</p>
 <audio aria-label="Sur le creux de ma main anhören, Radio-Edit-Fassung — Bertrand Charpilloz" controls="" preload="none" src="/bertrand-charpilloz-sur-le-creux-de-ma-main-radio-edit.mp3"></audio>
 </div>
 <div class="player-box">
-<p class="player-label">🎹 Fassung <span>Klavier und Stimme</span> (Rezital L'Altesse Ego)</p>
+<p class="player-label">🎹 <span>Demo Klavier und Stimme</span> (Rezital L'Altesse Ego)</p>
 <audio aria-label="Sur le creux de ma main anhören, Fassung für Klavier und Stimme — Bertrand Charpilloz" controls="" preload="none" src="/bertrand-charpilloz-sur-le-creux-de-ma-main-piano-voix.mp3"></audio>
 </div>
 </div>
@@ -1076,11 +1103,11 @@ footer{background:#050504;border-top:1px solid var(--border);padding:70px 8%;tex
 </details>
 <div class="players-row">
 <div class="player-box">
-<p class="player-label">🎧 Fassung <span>Radio Edit</span> (filmische Steigerung)</p>
+<p class="player-label">🎧 <span>Arrangiertes Demo</span> (filmische Steigerung)</p>
 <audio aria-label="Le Fil Rouge anhören, Radio-Edit-Fassung — Bertrand Charpilloz" controls="" preload="none" src="/bertrand-charpilloz-le-fil-rouge-radio-edit.mp3"></audio>
 </div>
 <div class="player-box">
-<p class="player-label">🎹 Fassung <span>Klavier und Stimme</span> (Bekenntnis nah am Mikrofon)</p>
+<p class="player-label">🎹 <span>Demo Klavier und Stimme</span> (Bekenntnis nah am Mikrofon)</p>
 <audio aria-label="Le Fil Rouge anhören, Fassung für Klavier und Stimme — Bertrand Charpilloz" controls="" preload="none" src="/bertrand-charpilloz-le-fil-rouge-piano-voix.mp3"></audio>
 </div>
 </div>
@@ -1107,11 +1134,11 @@ footer{background:#050504;border-top:1px solid var(--border);padding:70px 8%;tex
 </details>
 <div class="players-row">
 <div class="player-box">
-<p class="player-label">🎧 Fassung <span>Radio Edit</span> (Chanson-Blues-Groove)</p>
+<p class="player-label">🎧 <span>Arrangiertes Demo</span> (Chanson-Blues-Groove)</p>
 <audio aria-label="Mon Altesse Ego anhören, Radio-Edit-Fassung — Bertrand Charpilloz" controls="" preload="none" src="/bertrand-charpilloz-mon-altesse-ego-radio-edit.mp3"></audio>
 </div>
 <div class="player-box">
-<p class="player-label">🎹 Fassung <span>Klavier und Stimme</span> (Bühnenduo, 115 BPM)</p>
+<p class="player-label">🎹 <span>Demo Klavier und Stimme</span> (Bühnenduo, 115 BPM)</p>
 <audio aria-label="Mon Altesse Ego anhören, Fassung für Klavier und Stimme — Bertrand Charpilloz" controls="" preload="none" src="/bertrand-charpilloz-mon-altesse-ego-piano-voix.mp3"></audio>
 </div>
 </div>
@@ -1191,24 +1218,31 @@ footer{background:#050504;border-top:1px solid var(--border);padding:70px 8%;tex
 <p>Seit 2009 widmet er sich der Musik. Mit der Pianistin Marie-Françoise Coelho bringt er diese Lieder heute auf die Bühne, für alle, die nach Halt suchen: Man kann den Faden verlieren und ihn wieder knüpfen.</p>
 </div>
 </div>
+<div class="pianist" id="pianiste">
+<span class="hero-tag">Die Pianistin</span>
+<h3>Am Klavier: Marie-Françoise Coelho</h3>
+<p>Marie-Françoise Coelho ist ausgebildete Pianistin und Sängerin. Mit 6 Jahren kam sie ans Konservatorium, mit 16 gewann sie einen ersten Preis in Klavier und Musiktheorie. Danach wandte sie sich dem Theater zu, am Théâtre Jeune Public in Straßburg und bei Straßentheaterfestivals.</p>
+<p>Seit 1999 widmet sie sich der Arbeit mit der Stimme. Als Synchron- und Off-Sprecherin leiht sie ihre Stimme Dokumentationen und Reportagen, unter anderem für Arte, Sendungsjingles und Hörbüchern, darunter Virginie Grimaldis « Le premier jour du reste de ma vie » (Frémeaux &amp; Associés) und das Kinderbuch « Garance et le maître des couleurs ».</p>
+<p>In « L'Altesse Ego » begleitet sie nicht nur: Sie singt einige Passagen des Rezitals im Duett und übernimmt die Rolle der Erzählerin. « Mon Altesse Ego » ist ihr gewidmet.</p>
+</div>
 </section>
 <section id="scene">
 <div class="section-header">
-<h2>Partnerschaften &amp; Bühne</h2>
-<p>Ein Projekt mit drei sich ergänzenden Entwicklungsachsen, von der frankophonen Welt (Frankreich, Belgien, Westschweiz) bis zum Publikum, das das französische Chanson im Ausland liebt.</p>
+<h2>Für Profis</h2>
+<p>Verlag, Aufnahme und Bühne: was das Projekt Profis in Frankreich, der Schweiz, Belgien und der frankophonen Welt bietet.</p>
 </div>
 <div class="pro-cards">
 <div class="pro-card">
 <h3>1. Musikverlag &amp; Sync</h3>
-<p>Ein stimmiger Katalog von <strong>21 eigenen Texten</strong>, bei der SUISA registriert und in 4 Themenwelten von hoher literarischer Dichte gegliedert. Großes Potenzial für Synchronisation (Film, Serien, Dokumentationen) und Coverversionen.</p>
+<p><strong>21 eigene Lieder auf Französisch</strong>, bei der SUISA registriert, in 4 thematischen Kapiteln. Text und Musik von Bertrand Charpilloz, der die Rechte hält. Vollständiger Katalog und Textbuch auf Anfrage.</p>
 </div>
 <div class="pro-card">
 <h3>2. Tonträgerproduktion</h3>
-<p>Fertige Vorproduktions-Demos (Fassungen <em>Radio Edit</em> und <em>Klavier und Stimme</em>). Bereit für eine akustische Studioaufnahme, die das natürliche Timbre des Baritons und das Klavierspiel von Marie-Françoise Coelho festhält.</p>
+<p>Arrangement-Demos liegen vor. Nächster Schritt: die Studioaufnahme des Duos, Stimme und akustisches Klavier, mit Marie-Françoise Coelho.</p>
 </div>
 <div class="pro-card">
 <h3>3. Bühne &amp; Tournee (leichtes Setup)</h3>
-<p>Das Rezital <strong>« L'Altesse Ego »</strong> im Duo Klavier und Stimme ist kostengünstig und ideal für Theater, Kulturzentren, Instituts français, Chansonfestivals und Säle mit <strong>80 bis 500 Plätzen</strong>.</p>
+<p>Das Rezital <strong>« L'Altesse Ego »</strong>: ein Duo Klavier und Stimme für Theater, Kulturzentren, Instituts français, Chansonfestivals und Säle mit <strong>80 bis 500 Plätzen</strong>. Gage und Verfügbarkeit auf Anfrage.</p>
 </div>
 </div>
 <!-- BANDEAU TECHNIQUE & BOOKING POUR TOURNEURS / PROGRAMMATEURS -->
@@ -1317,11 +1351,15 @@ footer{background:#050504;border-top:1px solid var(--border);padding:70px 8%;tex
 </div>
 <div class="faq-item">
 <h3>Welche Lieder zuerst anhören?</h3>
-<p>« Sunset Boulevard », « Sur le creux de ma main », « Le Fil Rouge » und « Mon Altesse Ego », jeweils als Radio Edit und als Fassung für Klavier und Stimme auf dieser Seite.</p>
+<p>« Sunset Boulevard », « Sur le creux de ma main », « Le Fil Rouge » und « Mon Altesse Ego », jeweils als arrangiertes Demo und als Demo für Klavier und Stimme auf dieser Seite.</p>
 </div>
 <div class="faq-item">
 <h3>Was ist der Unterschied zwischen « L'Altesse Ego » und « Mon Altesse Ego »?</h3>
 <p>« L'Altesse Ego » ist der Name des Rezitals für Klavier und Stimme. « Mon Altesse Ego » ist ein Lied des Repertoires, geschrieben als Hommage an die Pianistin Marie-Françoise Coelho.</p>
+</div>
+<div class="faq-item">
+<h3>Wer ist Marie-Françoise Coelho?</h3>
+<p>Marie-Françoise Coelho ist die Pianistin des Rezitals « L'Altesse Ego », in dem sie auch einige Passagen im Duett singt und die Rolle der Erzählerin übernimmt. Sie ist ausgebildete Pianistin und Sängerin (erster Preis in Klavier und Musiktheorie mit 16) und seit 1999 auch Synchron- und Off-Sprecherin: Dokumentationen, unter anderem für Arte, und Hörbücher, darunter Virginie Grimaldis « Le premier jour du reste de ma vie ».</p>
 </div>
 <div class="faq-item">
 <h3>Was verbindet seine Musik mit seinem Schlaganfall?</h3>
@@ -1342,7 +1380,7 @@ footer{background:#050504;border-top:1px solid var(--border);padding:70px 8%;tex
 <h2 class="serif footer-title">Kontakt &amp; Booking</h2>
 <p style="color:var(--muted);margin:0 auto 2rem;max-width:720px">Für das vollständige Textbuch der 21 Lieder (PDF), alle Demos oder eine Zusammenarbeit (Verlag, Label, Bühne):</p>
 <div class="contact-actions">
-<button class="btn btn-primary" onclick="showC('mail',false)" type="button">✉️ E-Mail anzeigen / ausblenden</button>
+<a class="btn btn-primary" href="mailto:contact@bertrandcharpilloz.com?subject=Contact%20pro%20%E2%80%94%20L%27Altesse%20Ego">✉️ contact@bertrandcharpilloz.com</a>
 <button class="btn btn-outline" onclick="showC('tel',false)" type="button">📞 Telefon anzeigen / ausblenden</button>
 </div>
 <div class="reveal-box" id="cbox"></div>
@@ -1378,27 +1416,14 @@ function showC(t,forceOpen){
     b.style.display='block';
     var closeBtn='<button type="button" class="close-box" onclick="closeC()">✕ Ausblenden</button>';
 
-    if(t==='mail'){
-        var m=atob('YmVydHJhbmQuY2hhcnBpbGxvekBnbWFpbC5jb20=');
-        var s=encodeURIComponent("Contact Pro — L'Altesse Ego (Bertrand Charpilloz)");
-        var gmailUrl='https://mail.google.com/mail/?view=cm&fs=1&to='+m+'&su='+s;
-        b.innerHTML=closeBtn+
-            '<p style="margin-bottom:0.9rem">✉️ Künstlerische Leitung & Booking:<br><strong style="color:var(--gold);font-size:1.05rem">'+m+'</strong></p>'+
-            '<div>'+
-                '<button type="button" class="badge" onclick="cp(\''+m+'\',this)">📋 E-Mail-Adresse kopieren</button>'+
-                '<a href="'+gmailUrl+'" target="_blank" rel="noopener" class="badge">✉️ Über Gmail schreiben (Web)</a>'+
-                '<a href="mailto:'+m+'?subject='+s+'" class="badge">✉️ Mail-App / Mobil</a>'+
-            '</div>';
-    }else{
         var td=atob('MDYgODEgMDQgNDIgNDc=');
-        var tl=atob('KzMzNjgxMDQ0MjQ3');
-        b.innerHTML=closeBtn+
-            '<p style="margin-bottom:0.9rem">📞 Direkte Leitung:<br><strong style="color:var(--gold);font-size:1.15rem">'+td+'</strong></p>'+
-            '<div>'+
-                '<button type="button" class="badge" onclick="cp(\''+td+'\',this)">📋 Nummer kopieren</button>'+
-                '<a href="tel:'+tl+'" class="badge">📞 Direkt anrufen</a>'+
-            '</div>';
-    }
+    var tl=atob('KzMzNjgxMDQ0MjQ3');
+    b.innerHTML=closeBtn+
+        '<p style="margin-bottom:0.9rem">📞 Direkte Leitung:<br><strong style="color:var(--gold);font-size:1.15rem">'+td+'</strong></p>'+
+        '<div>'+
+            '<button type="button" class="badge" onclick="cp(\''+td+'\',this)">📋 Nummer kopieren</button>'+
+            '<a href="tel:'+tl+'" class="badge">📞 Direkt anrufen</a>'+
+        '</div>';
 }
 
 function cp(txt,btn){
