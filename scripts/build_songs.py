@@ -123,7 +123,7 @@ def page(song):
                 "@type": "WebPage",
                 "@id": url,
                 "url": url,
-                "name": f"{title} — paroles et histoire de la chanson | Bertrand Charpilloz",
+                "name": f"{title} — Bertrand Charpilloz, paroles et histoire",
                 "description": song["lead"],
                 "inLanguage": "fr",
                 "isPartOf": {"@id": f"{SITE}/#site"},
@@ -165,13 +165,15 @@ def page(song):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{e(title)} — paroles et histoire de la chanson | Bertrand Charpilloz</title>
+<title>{e(title)} — Bertrand Charpilloz, paroles et histoire</title>
 <meta name="description" content="{e(desc)}">
 <meta name="author" content="Bertrand Charpilloz">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 <link rel="canonical" href="{url}">
 <meta name="theme-color" content="#0a0908">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-192.png" type="image/png" sizes="192x192">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta property="og:type" content="music.song">
 <meta property="og:site_name" content="Bertrand Charpilloz">
