@@ -4,12 +4,13 @@
 
 - **Nom :** Bertrand Charpilloz
 - **Site officiel (dossier de présentation / EPK) :** https://www.bertrandcharpilloz.com/
-- **Dernière mise à jour de cette fiche :** 19 octobre 2026
+- **Dernière mise à jour de cette fiche :** 2 novembre 2026
 - **Langue :** français
 - **Nature :** fiche d'identité de référence, rédigée à partir des informations publiées par l'artiste sur son site officiel.
 - **Adresse de cette fiche :** https://www.bertrandcharpilloz.com/bertrand-charpilloz.md
 - **Wikidata :** [Q141775145](https://www.wikidata.org/wiki/Q141775145)
 - **BnF (notice d'autorité) :** [16925793x](https://catalogue.bnf.fr/ark:/12148/cb16925793x)
+- **Droits d'auteur :** membre auteur-compositeur de la SUISA (Coopérative des auteurs et éditeurs de musique, Suisse), contrat de gestion auteur depuis 2014 ; numéro IPI 00455 76 76 13. Œuvres sans éditeur ; en France, droits gérés par la Sacem pour le compte de la SUISA (accord de réciprocité).
 
 
 ## En bref
@@ -118,7 +119,7 @@ Paroles et musiques : Bertrand Charpilloz. Le catalogue est organisé en quatre 
 
 ## Collaborations possibles
 
-- **Édition musicale et synchronisation :** 21 textes originaux déposés, proposés aux éditeurs et aux superviseurs musicaux (cinéma, fiction, documentaire) ainsi qu'à la réinterprétation.
+- **Édition musicale et synchronisation :** 21 œuvres originales déposées à la SUISA, sans éditeur, proposés aux éditeurs et aux superviseurs musicaux (cinéma, fiction, documentaire) ainsi qu'à la réinterprétation.
 - **Production discographique :** maquettes de préproduction finalisées ; projet d'enregistrement acoustique en studio.
 - **Scène :** récital « L'Altesse Ego » proposé aux programmateurs et tourneurs.
 

@@ -114,7 +114,7 @@ def page(song):
         desc = desc[:155].rsplit(" ", 1)[0] + "…"
     audio_arr = f"/bertrand-charpilloz-{slug}-radio-edit.mp3"
     audio_pv = f"/bertrand-charpilloz-{slug}-piano-voix.mp3"
-    facts = [("Paroles et musique", "Bertrand Charpilloz"), ("Interprète", "Bertrand Charpilloz")] + song["facts"] + [("Dépôt", "SUISA"), ("Langue", "Français")]
+    facts = [("Paroles et musique", "Bertrand Charpilloz"), ("Interprète", "Bertrand Charpilloz")] + song["facts"] + [("Gestion des droits", "SUISA (auteur-compositeur, IPI 00455 76 76 13)"), ("Langue", "Français")]
     others = [s for s in SONGS if s["slug"] != slug]
     ld = {
         "@context": "https://schema.org",
@@ -147,6 +147,7 @@ def page(song):
                 "inLanguage": "fr",
                 "composer": {"@id": f"{SITE}/#bertrand"},
                 "lyricist": {"@id": f"{SITE}/#bertrand"},
+                "copyrightHolder": {"@id": f"{SITE}/#bertrand"},
                 "description": song["lead"],
                 "isPartOf": {"@id": f"{SITE}/#repertoire"},
                 "lyrics": {"@type": "CreativeWork", "inLanguage": "fr", "text": lyrics},
@@ -219,7 +220,7 @@ def page(song):
   <section>
     <h2>Les paroles</h2>
     <div class="lyrics">{e(lyrics)}</div>
-    <p class="note">Paroles et musique : Bertrand Charpilloz. Tous droits réservés, œuvre déposée à la SUISA.</p>
+    <p class="note">Paroles et musique : Bertrand Charpilloz. Tous droits réservés, œuvre déposée à la SUISA (IPI de l'auteur : 00455 76 76 13) ; en France, droits gérés par la Sacem pour le compte de la SUISA.</p>
   </section>
 
   <section>
